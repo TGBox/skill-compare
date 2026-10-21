@@ -104,7 +104,7 @@
                 <div class="hero-quick-actions">
                     <button class="btn btn-primary" onclick="switchTab('tab-bundles')">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
-                        Die 7 Master-Skills erkunden
+                        Die 6 Master-Skills & Automatik erkunden
                     </button>
                     <button class="btn btn-secondary" onclick="switchTab('tab-duplicates')">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path></svg>
@@ -197,8 +197,8 @@
                     </div>
                     <div class="rec-step">
                         <div class="step-badge">Schritt 3</div>
-                        <h4>Die 7 Master-Skills einbinden</h4>
-                        <p>Die 88 wertvollen Einzelskills durch die 7 konsolidierten, praxiserprobten Master-Skills ersetzen.</p>
+                        <h4>Das 6+1 Modell etablieren</h4>
+                        <p>88 Einzelskills durch 6 prägnante Master-Skills (<code>review</code>, <code>spec</code>, <code>ui</code>, <code>ship</code>, <code>data</code>, <code>ideate</code>) plus 1 automatische Regel-/Hook-Schicht ersetzen.</p>
                     </div>
                 </div>
             </div>
@@ -331,8 +331,8 @@
         <section id="tab-bundles" class="tab-content">
             <div class="bundles-header">
                 <div>
-                    <h2>Die 7 Master-Skills (Konsolidierungs-Architektur)</h2>
-                    <p>Die 88 wertvollen Arbeits-Skills wurden zu 7 in sich geschlossenen, produktiven Master-Skills kombiniert. Fertig formuliert und einsatzbereit.</p>
+                    <h2>Die 6 Master-Skills & Automatik-Schicht</h2>
+                    <p>Die 88 wertvollen Arbeits-Skills wurden zu 6 prägnanten Master-Skills kombiniert und durch eine automatische Token-Regel mit SessionStart-Hook ergänzt.</p>
                 </div>
                 <div class="bundle-actions">
                     <span class="badge-ready">Produktionsbereit</span>
@@ -364,7 +364,7 @@
                     <div class="lenses-grid">
                         <div class="lens-item">
                             <span class="lens-title">1. Radikale Vereinfachung (Ponytail-Linse)</span>
-                            <p>Statt 268 Skills nur die 7 Kern-Skills laden. Alle 114 Spieleentwicklungs-Skills komplett aus dem Arbeits-Agenten verbannen.</p>
+                            <p>Statt 268 Skills nur die 6 prägnanten Master-Skills (<code>review</code>, <code>spec</code>, <code>ui</code>, <code>ship</code>, <code>data</code>, <code>ideate</code>) laden. Die Token-Optimierung läuft vollautomatisch im Hintergrund.</p>
                         </div>
                         <div class="lens-item">
                             <span class="lens-title">2. Team-Standardisierung (Enterprise-Linse)</span>
@@ -413,10 +413,10 @@
                                     <td><span class="badge badge-warning">Unzureichend</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>C: Die 7 Master-Skills (Empfohlen)</strong></td>
-                                    <td>Maximal (Klare Standards, 0 Ballast)</td>
-                                    <td>Bereits vorbereitet!</td>
-                                    <td>Kollegen müssen die neuen 7 Namen lernen</td>
+                                    <td><strong>C: Das 6+1 Modell (Ausgewählt)</strong></td>
+                                    <td>Maximal (6 kurze CLI-Verben + automatische Token-Regel)</td>
+                                    <td>Vollständig implementiert!</td>
+                                    <td>review, spec, ui, ship, data, ideate – sofort merkbar</td>
                                     <td><span class="badge badge-success">Ausgewählt</span></td>
                                 </tr>
                             </tbody>
@@ -436,22 +436,23 @@
                         <h4>1. Problem-Statement</h4>
                         <p>Das aktuelle Skill-Verzeichnis umfasst 268 Skills mit 72 identischen Dateikopien und 114 irrelevanten Spiele-Skills. Dies führt zu Verwirrung bei Mitarbeitern, überladenem Prompt-Kontext und ineffizienter Tool-Auswahl der KI.</p>
 
-                        <h4>2. Empfohlene Lösung: Das 7-Säulen-Modell</h4>
+                        <h4>2. Empfohlene Lösung: Das 6+1 Modell (Ultra-kurze CLI-Befehle + Automatik)</h4>
                         <ul>
-                            <li><strong>code-quality-and-review:</strong> Review, Security, Root-Cause-Debugging & Minimalismus.</li>
-                            <li><strong>software-architecture-and-specs:</strong> Spec-Driven Development, APIs, ADRs.</li>
-                            <li><strong>modern-web-and-ui:</strong> Frontend, Responsive Design, WCAG & DevTools.</li>
-                            <li><strong>context-and-token-efficiency:</strong> AST-Skelettierer & Log-Kompression.</li>
-                            <li><strong>devops-testing-and-git:</strong> TDD, CI/CD & Git-Exzellenz.</li>
-                            <li><strong>enterprise-data-and-sql:</strong> SQL-Tuning, Schemas & Cloud-Daten.</li>
-                            <li><strong>agent-workflow-and-ideation:</strong> Ideenverfeinerung & Agentenführung.</li>
+                            <li><strong>review:</strong> (Trigger: <code>review</code> / <code>prüfe</code>) 5-Achsen-Review, Security (OWASP), Root-Cause-Debugging & Ponytail-Minimalismus.</li>
+                            <li><strong>spec:</strong> (Trigger: <code>spec</code> / <code>entwerfe</code>) Spec-First Anforderungsklärung, API-Schnittstellenverträge, ADRs & Migrationen.</li>
+                            <li><strong>ui:</strong> (Trigger: <code>ui</code> / <code>oberfläche</code>) Modernes Frontend, Dark Mode, Barrierefreiheit (WCAG 2.1 AA) & LCP-Speed.</li>
+                            <li><strong>ship:</strong> (Trigger: <code>ship</code> / <code>veröffentliche</code>) Test-Driven Development (TDD), CI/CD-Pipelines & atomare Git-Commits.</li>
+                            <li><strong>data:</strong> (Trigger: <code>data</code> / <code>daten</code>) SQL-Performance-Tuning, dbt/Dataform Pipelines, Schemamapping & Cloud-Daten.</li>
+                            <li><strong>ideate:</strong> (Trigger: <code>ideate</code> / <code>idee</code>) 3-Phasen-Ideenfindung, Anti-Yes-Man Hinterfragen & PRD-One-Pager.</li>
+                            <li><strong>Automatische System-Schicht:</strong> <code>rules/context-and-token-efficiency.md</code> & <code>hooks/hooks.json</code> (Zero-Config: Greift dauerhaft im Hintergrund bei jedem Start & Prompt!).</li>
                         </ul>
 
                         <h4>3. "Not Doing" Liste (Bewusste Abgrenzung)</h4>
                         <ul>
                             <li><strong>Keine Spiele-Skills am Arbeitsplatz:</strong> Phaser, PyGame, Pixi, Platformer etc. bleiben in einem separaten Archiv.</li>
                             <li><strong>Keine doppelten Schreibweisen:</strong> Nie wieder <code>_</code> vs <code>-</code> Verwirrung.</li>
-                            <li><strong>Keine 50-Zeilen-Mikroskills:</strong> Skills, die nur aus 3 Sätzen bestehen, wurden in die übergeordneten Master-Skills integriert.</li>
+                            <li><strong>Keine 50-Zeilen-Mikroskills:</strong> Skills, die nur aus 3 Sätzen bestehen, wurden in die 6 übergeordneten Master-Skills integriert.</li>
+                            <li><strong>Kein manueller Token-Skill:</strong> Token-Effizienz ist kein mühsam aufzurufender Skill mehr, sondern festes Standardverhalten jedes Agenten.</li>
                         </ul>
                     </div>
                 </div>

@@ -8,12 +8,14 @@ description: Comprehensive standard for code review, root-cause debugging, minim
 A fast, action-oriented engineering standard for reviewing code, diagnosing defects, eliminating complexity, and hardening security.
 
 ## Trigger-Keywords / Aufruf
+
 - **English:** `review`, `code review`, `audit`, `debug`, `check`, `simplify`
 - **Deutsch:** `prüfe`, `untersuche`, `code-review`, `sicherheitsaudit`, `fehler finden`, `vereinfache`
 
 ---
 
 ## 1. Multi-Axis Review Protocol (The 5 Dimensions)
+
 Evaluate any change across five clear dimensions:
 
 1. **Correctness & Edge Cases**:
@@ -33,7 +35,9 @@ Evaluate any change across five clear dimensions:
 ---
 
 ## 2. Systematic Root-Cause Debugging (4 Steps)
+
 Never guess or apply blind trial-and-error fixes:
+
 1. **Reproduce:** Isolate the exact minimal trigger and input data that reproduces the defect.
 2. **Trace & Hypothesize:** Sanitize stacktraces and formulate an explicit hypothesis (*"Component X receives Y instead of Z"*).
 3. **Verify:** Prove the hypothesis with targeted assertions before changing business logic.

@@ -69,15 +69,18 @@ Die Untersuchung aller Skills auf dem System ergab eine extreme Zersplitterung �
 ## "Not Doing" Liste (Bewusste Abgrenzung)
 
 1. **Keine 1:1 Beibehaltung veralteter Einzel-Mikroskills:**
-   - Skills wie `pylance-refactoring` oder 3-Zeiler-Skills werden nicht isoliert weitergepflegt, sondern sind integraler Bestandteil von `code-quality-and-review`.
+   - Skills wie `pylance-refactoring` oder 3-Zeiler-Skills werden nicht isoliert weitergepflegt, sondern sind integraler Bestandteil des Master-Skills `review`.
 2. **Keine Vermischung von Spieledomänen mit Unternehmensentwicklung:**
    - Spieleengines wie Phaser, Pygame oder PixiJS werden nicht in die Arbeits-Skills übernommen. Sie bleiben isoliert in ihrem Original-Repository.
-3. **Keine irreversiblen Löschungen ohne Backup:**
+3. **Keine manuellen Token-Skills:**
+   - Token- und Kontextoptimierung wird nicht als manueller Skill angeboten, sondern greift dauerhaft als Systemregel und SessionStart-Hook.
+4. **Keine irreversiblen Löschungen ohne Backup:**
    - Das Bereinigungsskript verschiebt Duplikate zuerst in ein mit Zeitstempel versehenes Backup-Verzeichnis (`$HOME\.gemini\skills_backup_*`), bevor gelöscht wird.
 
 ---
 
-## Offene Fragen & Nächste Schritte
+## Umsetzungsstatus & Bereitstellung
 
-1. **Installations-Präferenz:** Möchten Sie die 7 Master-Skills global unter `C:\Users\DaniBani\.gemini\config\skills\` aktivieren oder als Workspace-Regeln in `.agents/skills` der einzelnen Kundenprojekte teilen?
-2. **Spezial-Skills:** Werden im Unternehmen aktuell Qt/C++ Desktop-Applikationen entwickelt? Falls ja, kann das Qt-Paket als optionales 8. Spezial-Bündel beibehalten werden.
+1. **Global auf diesem PC:** Die 6 Master-Skills (`review`, `spec`, `ui`, `ship`, `data`, `ideate`) sind in `C:\Users\DaniBani\.gemini\config\skills/` parallel aktiv.
+2. **Team-Vorlage:** Unter `.agents/skills/` liegt die einsatzbereite Vorlage zum Teilen im Git-Repository des Teams.
+3. **Automatische Regel:** In `rules/context-and-token-efficiency.md` und `hooks/hooks.json` dauerhaft verankert.
