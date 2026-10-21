@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillLens Pro - Intelligente Skill-Analyse & Konsolidierung</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+    <!-- Top Header -->
+    <header class="app-header">
+        <div class="header-left">
+            <div class="logo-group">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <div>
+                    <div class="brand-title">SkillLens <span class="badge-pro">PRO</span></div>
+                    <div class="brand-subtitle">Skill-Audit, Duplikaterkennung & Konsolidierung</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-stats">
+            <div class="stat-pill">
+                <span class="stat-num" id="stat-total">268</span>
+                <span class="stat-label">Skills gescannt</span>
+            </div>
+            <div class="stat-pill stat-warning">
+                <span class="stat-num" id="stat-dupes">72</span>
+                <span class="stat-label">Exakte Duplikate</span>
+            </div>
+            <div class="stat-pill stat-ballast">
+                <span class="stat-num" id="stat-gaming">114</span>
+                <span class="stat-label">Gaming-Ballast</span>
+            </div>
+            <div class="stat-pill stat-success">
+                <span class="stat-num" id="stat-core">88</span>
+                <span class="stat-label">Arbeits-Kern</span>
+            </div>
+            <div class="stat-pill stat-accent">
+                <span class="stat-num">7</span>
+                <span class="stat-label">Master-Bündel</span>
+            </div>
+        </div>
+
+        <div class="header-actions">
+            <button id="btn-fullscreen-toggle" class="btn btn-secondary" title="Zwischen Vollbild und Fenstermodus wechseln (F11)">
+                <svg class="icon-expand" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                </svg>
+                <svg class="icon-compress hidden" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+                </svg>
+                <span id="txt-fullscreen">Vollbild</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="app-nav">
+        <button class="nav-tab active" data-tab="tab-dashboard" id="tab-btn-dashboard">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            <span>Dashboard & Analyse</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-catalog" id="tab-btn-catalog">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <span>Skill-Katalog & Filter</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-comparator" id="tab-btn-comparator">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            <span>Side-by-Side Vergleich (<span id="compare-count-badge">0</span>)</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-duplicates" id="tab-btn-duplicates">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            <span>Duplikat-Detektor</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-bundles" id="tab-btn-bundles">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+            <span>Die 7 Master-Skills (Konsolidierung)</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-idearefine" id="tab-btn-idearefine">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            <span>Ideen-Verfeinerung (/idea-refine)</span>
+        </button>
+    </nav>
+
+    <!-- Main Workspace -->
+    <main class="app-main">
+        <!-- 1. DASHBOARD VIEW -->
+        <section id="tab-dashboard" class="tab-content active">
+            <div class="dashboard-hero">
+                <div class="hero-text">
+                    <h1>Skill-Ökosystem Analyse & Bereinigung</h1>
+                    <p>Aktuell befinden sich <strong>268 Skills</strong> auf Ihrem System aus unterschiedlichsten Repositories und Plugins. Diese Analyse deckt Redundanzen auf, filtert irrelevanten Ballast und konsolidiert alles in <strong>7 hocheffiziente Kern-Skills</strong> für Sie und Ihre Mitarbeiter.</p>
+                </div>
+                <div class="hero-quick-actions">
+                    <button class="btn btn-primary" onclick="switchTab('tab-bundles')">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                        Die 7 Master-Skills erkunden
+                    </button>
+                    <button class="btn btn-secondary" onclick="switchTab('tab-duplicates')">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path></svg>
+                        72 Duplikate prüfen
+                    </button>
+                </div>
+            </div>
+
+            <!-- KPI Cards Grid -->
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-icon icon-cyan">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <div class="kpi-info">
+                        <div class="kpi-label">Gesamtzahl Skills</div>
+                        <div class="kpi-value">268</div>
+                        <div class="kpi-sub">Verteilt auf 13 Speicherorte</div>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon icon-rose">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <div class="kpi-info">
+                        <div class="kpi-label">Exakte Dateikopien</div>
+                        <div class="kpi-value">72 <span class="kpi-tag text-rose">26.9%</span></div>
+                        <div class="kpi-sub">Völlig identischer Dateiinhalt (SHA256)</div>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon icon-amber">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2"></circle><path d="M6 12h.01M18 12h.01"></path></svg>
+                    </div>
+                    <div class="kpi-info">
+                        <div class="kpi-label">Gaming-Ballast</div>
+                        <div class="kpi-value">114 <span class="kpi-tag text-amber">42.5%</span></div>
+                        <div class="kpi-sub">Spiele-Mechaniken, Shaders, Platformer etc.</div>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon icon-emerald">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                    </div>
+                    <div class="kpi-info">
+                        <div class="kpi-label">Token-Ersparnis-Potenzial</div>
+                        <div class="kpi-value">~78%</div>
+                        <div class="kpi-sub">Reduktion des Kontext-Overheads</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual Charts / Breakdown Grid -->
+            <div class="charts-row">
+                <div class="card chart-card">
+                    <h3>Herkunft & Quellen der Skills</h3>
+                    <div class="breakdown-list" id="source-breakdown-list"></div>
+                </div>
+
+                <div class="card chart-card">
+                    <h3>Funktionale Domänen</h3>
+                    <div class="breakdown-list" id="domain-breakdown-list"></div>
+                </div>
+            </div>
+
+            <!-- Strategic Action Recommendation Card -->
+            <div class="card recommendation-card">
+                <div class="recommendation-header">
+                    <div class="rec-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <div>
+                        <h3>Empfohlene Konsolidierungs-Strategie für Ihr Team</h3>
+                        <p class="rec-desc">Vermeiden Sie Tool-Fatigue und Kontext-Überlauf durch die 3-Schritte-Konsolidierung:</p>
+                    </div>
+                </div>
+                <div class="rec-steps-grid">
+                    <div class="rec-step">
+                        <div class="step-badge">Schritt 1</div>
+                        <h4>Exakte Duplikate eliminieren</h4>
+                        <p>72 identische Kopien aus veralteten Ordnern (wie <code>.openclaw</code> oder doppelten Root-Kopien) bereinigen.</p>
+                    </div>
+                    <div class="rec-step">
+                        <div class="step-badge">Schritt 2</div>
+                        <h4>Gaming-Ballast auslagern</h4>
+                        <p>Die 114 Spieleentwicklungs-Skills in ein optionales, separates Paket verschieben, damit sie die Arbeits-Prompts nicht verlangsamen.</p>
+                    </div>
+                    <div class="rec-step">
+                        <div class="step-badge">Schritt 3</div>
+                        <h4>Die 7 Master-Skills einbinden</h4>
+                        <p>Die 88 wertvollen Einzelskills durch die 7 konsolidierten, praxiserprobten Master-Skills ersetzen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. CATALOG VIEW -->
+        <section id="tab-catalog" class="tab-content">
+            <div class="catalog-toolbar">
+                <div class="search-box">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" id="catalog-search" placeholder="Skills nach Name, Beschreibung, Keywords filtern..." autocomplete="off">
+                    <button id="catalog-search-clear" class="btn-clear hidden">&times;</button>
+                </div>
+
+                <div class="filter-group">
+                    <label>Eignung:</label>
+                    <select id="filter-suitability" class="select-control">
+                        <option value="all">Alle Skills (268)</option>
+                        <option value="high_value" selected>Nur Arbeits-relevant (88)</option>
+                        <option value="unsuitable_ballast">Gaming-Ballast (114)</option>
+                        <option value="duplicates_only">Nur Duplikate (72)</option>
+                        <option value="specialized">Spezialisiert (Qt/C++) (22)</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Domäne:</label>
+                    <select id="filter-domain" class="select-control">
+                        <option value="all">Alle Domänen</option>
+                        <option value="Software Architecture, Quality & Review">Software-Qualität & Review</option>
+                        <option value="Frontend, Web & UI/UX">Frontend, Web & UI/UX</option>
+                        <option value="Context & Token Optimization">Kontext- & Token-Optimierung</option>
+                        <option value="Data Engineering & Cloud (GCP/SQL)">Data, SQL & Cloud</option>
+                        <option value="General & Workflow">Workflow & Metaskills</option>
+                        <option value="Qt & C++ Development">Qt & C++</option>
+                        <option value="Game Development & Graphics">Game Dev</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Quelle:</label>
+                    <select id="filter-source" class="select-control">
+                        <option value="all">Alle Quellen</option>
+                    </select>
+                </div>
+
+                <div class="view-toggle">
+                    <button class="btn-icon active" id="btn-view-cards" title="Kartenansicht">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                    </button>
+                    <button class="btn-icon" id="btn-view-table" title="Tabellenansicht">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="catalog-status-bar">
+                <div>Gefunden: <strong id="catalog-count">0</strong> von <strong>268</strong> Skills</div>
+                <div class="comparator-hint" id="comparator-hint">
+                    Ausgewählt zum Vergleich: <strong id="selected-compare-names">Keine</strong>
+                    <button class="btn btn-sm btn-accent" id="btn-open-comparator" onclick="switchTab('tab-comparator')" style="display:none;">Jetzt vergleichen</button>
+                </div>
+            </div>
+
+            <!-- Cards Container -->
+            <div id="catalog-cards-container" class="cards-grid"></div>
+
+            <!-- Table Container -->
+            <div id="catalog-table-container" class="table-container hidden">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th width="40">Vgl.</th>
+                            <th>Skill Name</th>
+                            <th>Domäne</th>
+                            <th>Quelle</th>
+                            <th>Eignung für die Arbeit</th>
+                            <th>Ziel-Bündel</th>
+                            <th>Zeilen</th>
+                            <th width="100">Aktionen</th>
+                        </tr>
+                    </thead>
+                    <tbody id="catalog-table-body"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 3. COMPARATOR VIEW -->
+        <section id="tab-comparator" class="tab-content">
+            <div class="comparator-header">
+                <div>
+                    <h2>Side-by-Side Skill-Vergleich</h2>
+                    <p>Vergleichen Sie 2 oder 3 Skills direkt nebeneinander, um Überschneidungen und Redundanzen im Detail zu analysieren.</p>
+                </div>
+                <div class="comparator-presets">
+                    <span>Schnellauswahl beliebter Vergleiche:</span>
+                    <button class="btn btn-sm btn-outline" onclick="loadComparisonPreset(['bigquery-ai-ml', 'bigquery_ai_ml'])">BigQuery Duplikat</button>
+                    <button class="btn btn-sm btn-outline" onclick="loadComparisonPreset(['code-simplification', 'ponytail'])">Code Simplification vs. Ponytail</button>
+                    <button class="btn btn-sm btn-outline" onclick="loadComparisonPreset(['frontend-ui-engineering', 'ui-ux-pro-max'])">Frontend vs. UI-UX</button>
+                    <button class="btn btn-sm btn-outline" onclick="loadComparisonPreset(['spec-driven-development', 'planning-and-task-breakdown'])">Spec vs. Planning</button>
+                </div>
+            </div>
+
+            <div id="comparator-empty-state" class="empty-state">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                <h3>Noch keine Skills zum Vergleichen ausgewählt</h3>
+                <p>Wählen Sie im <a href="#" onclick="switchTab('tab-catalog'); return false;">Skill-Katalog</a> bei beliebigen Skills die Checkbox <strong>"Vergleichen"</strong> oder nutzen Sie eine der Schnellauswahlen oben.</p>
+            </div>
+
+            <div id="comparator-grid" class="comparator-grid hidden"></div>
+        </section>
+
+        <!-- 4. DUPLICATES VIEW -->
+        <section id="tab-duplicates" class="tab-content">
+            <div class="duplicates-header">
+                <div>
+                    <h2>Duplikat- & Overlap-Detektor</h2>
+                    <p>Hier sind alle <strong>72 identischen Dateikopien</strong> sowie Namenskollisionen aufgelistet, die Speicherplatz und LLM-Aufmerksamkeit verschwenden.</p>
+                </div>
+                <button class="btn btn-primary" onclick="openCleanupModal()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+                    Bereinigungs-Skript generieren
+                </button>
+            </div>
+
+            <div class="duplicate-groups-list" id="duplicate-groups-container"></div>
+        </section>
+
+        <!-- 5. BUNDLES (CONSOLIDATION) VIEW -->
+        <section id="tab-bundles" class="tab-content">
+            <div class="bundles-header">
+                <div>
+                    <h2>Die 7 Master-Skills (Konsolidierungs-Architektur)</h2>
+                    <p>Die 88 wertvollen Arbeits-Skills wurden zu 7 in sich geschlossenen, produktiven Master-Skills kombiniert. Fertig formuliert und einsatzbereit.</p>
+                </div>
+                <div class="bundle-actions">
+                    <span class="badge-ready">Produktionsbereit</span>
+                </div>
+            </div>
+
+            <!-- Master Bundles Grid -->
+            <div class="master-bundles-grid" id="master-bundles-container"></div>
+        </section>
+
+        <!-- 6. IDEA-REFINE VIEW -->
+        <section id="tab-idearefine" class="tab-content">
+            <div class="idea-refine-container">
+                <div class="idea-header">
+                    <div class="badge-ideation">Slash Command: /idea-refine</div>
+                    <h2>Strukturierte Ideen-Verfeinerung & Architektur-Planung</h2>
+                    <p>Divergente Erkundung, konvergente Bewertung und scharfes Produktdesign für die Transformation Ihres Skill-Systems.</p>
+                </div>
+
+                <!-- Phase 1: Understand & Expand -->
+                <div class="card idea-phase-card">
+                    <div class="phase-indicator">Phase 1: Verstehen & Aufspannen (Divergent)</div>
+                    <h3>Das "How Might We" Problem-Statement</h3>
+                    <div class="hmw-quote">
+                        "Wie können wir die 268 verstreuten, redundanten Skills auf dem Rechner so bereinigen und in ein fokussiertes Set aus wenigen Master-Skills zusammenführen, dass das Team maximale Produktivität ohne Verwirrung und Token-Verschwendung erreicht?"
+                    </div>
+
+                    <h4>5 Innovations-Perspektiven (Lenses) für die Konsolidierung:</h4>
+                    <div class="lenses-grid">
+                        <div class="lens-item">
+                            <span class="lens-title">1. Radikale Vereinfachung (Ponytail-Linse)</span>
+                            <p>Statt 268 Skills nur die 7 Kern-Skills laden. Alle 114 Spieleentwicklungs-Skills komplett aus dem Arbeits-Agenten verbannen.</p>
+                        </div>
+                        <div class="lens-item">
+                            <span class="lens-title">2. Team-Standardisierung (Enterprise-Linse)</span>
+                            <p>Ein einziges geteiltes <code>.agents/skills</code> Repository im Team-Workspace, damit alle Mitarbeiter mit exakt denselben Qualitätsstandards arbeiten.</p>
+                        </div>
+                        <div class="lens-item">
+                            <span class="lens-title">3. Domain-Pack Modularisierung</span>
+                            <p>Kern-Skills immer aktiv; Spezialskills (wie Qt/C++ oder BigQuery) nur bei konkretem Bedarf on-demand als Plugin zuschalten.</p>
+                        </div>
+                        <div class="lens-item">
+                            <span class="lens-title">4. Token-Hyper-Effizienz</span>
+                            <p>Integration der JackOfAllTrAIdes-Suite (AST-Skelettierer, Log-Kompressor) als Standard-Verhalten für jeden Prompt spart hunderte Euro an Tokenkosten.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phase 2: Evaluate & Converge -->
+                <div class="card idea-phase-card">
+                    <div class="phase-indicator">Phase 2: Bewerten & Konvergieren (Convergent)</div>
+                    <h3>Strategische Richtungen im Stresstest</h3>
+
+                    <div class="stress-test-table">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Richtung</th>
+                                    <th>Nutzwert für das Team</th>
+                                    <th>Machbarkeit & Aufwand</th>
+                                    <th>Verborgenes Risiko</th>
+                                    <th>Entscheidung</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>A: Alle 268 behalten</strong></td>
+                                    <td>Gering (Verwirrung, Überlauf)</td>
+                                    <td>Sofort</td>
+                                    <td>Agent wählt falsche Tools, vergisst Instruktionen</td>
+                                    <td><span class="badge badge-danger">Abgelehnt</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>B: Nur Duplikate löschen</strong></td>
+                                    <td>Mittel (Spielemüll bleibt)</td>
+                                    <td>1 Stunde</td>
+                                    <td>Agent hat immer noch 196 Skills im Prompt</td>
+                                    <td><span class="badge badge-warning">Unzureichend</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>C: Die 7 Master-Skills (Empfohlen)</strong></td>
+                                    <td>Maximal (Klare Standards, 0 Ballast)</td>
+                                    <td>Bereits vorbereitet!</td>
+                                    <td>Kollegen müssen die neuen 7 Namen lernen</td>
+                                    <td><span class="badge badge-success">Ausgewählt</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Phase 3: Sharpen & Ship One-Pager -->
+                <div class="card idea-phase-card one-pager-card">
+                    <div class="phase-indicator">Phase 3: Finaler One-Pager (Ship)</div>
+                    <div class="one-pager-header">
+                        <h3>One-Pager: Master Skill Consolidation Suite</h3>
+                        <span class="badge badge-info">docs/ideas/skill-consolidation-framework.md</span>
+                    </div>
+
+                    <div class="markdown-preview-box">
+                        <h4>1. Problem-Statement</h4>
+                        <p>Das aktuelle Skill-Verzeichnis umfasst 268 Skills mit 72 identischen Dateikopien und 114 irrelevanten Spiele-Skills. Dies führt zu Verwirrung bei Mitarbeitern, überladenem Prompt-Kontext und ineffizienter Tool-Auswahl der KI.</p>
+
+                        <h4>2. Empfohlene Lösung: Das 7-Säulen-Modell</h4>
+                        <ul>
+                            <li><strong>code-quality-and-review:</strong> Review, Security, Root-Cause-Debugging & Minimalismus.</li>
+                            <li><strong>software-architecture-and-specs:</strong> Spec-Driven Development, APIs, ADRs.</li>
+                            <li><strong>modern-web-and-ui:</strong> Frontend, Responsive Design, WCAG & DevTools.</li>
+                            <li><strong>context-and-token-efficiency:</strong> AST-Skelettierer & Log-Kompression.</li>
+                            <li><strong>devops-testing-and-git:</strong> TDD, CI/CD & Git-Exzellenz.</li>
+                            <li><strong>enterprise-data-and-sql:</strong> SQL-Tuning, Schemas & Cloud-Daten.</li>
+                            <li><strong>agent-workflow-and-ideation:</strong> Ideenverfeinerung & Agentenführung.</li>
+                        </ul>
+
+                        <h4>3. "Not Doing" Liste (Bewusste Abgrenzung)</h4>
+                        <ul>
+                            <li><strong>Keine Spiele-Skills am Arbeitsplatz:</strong> Phaser, PyGame, Pixi, Platformer etc. bleiben in einem separaten Archiv.</li>
+                            <li><strong>Keine doppelten Schreibweisen:</strong> Nie wieder <code>_</code> vs <code>-</code> Verwirrung.</li>
+                            <li><strong>Keine 50-Zeilen-Mikroskills:</strong> Skills, die nur aus 3 Sätzen bestehen, wurden in die übergeordneten Master-Skills integriert.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal: Skill Detail Inspection -->
+    <div id="modal-skill-detail" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeSkillDetailModal()"></div>
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div>
+                    <h3 id="modal-skill-title">Skill Details</h3>
+                    <div class="modal-subtitle" id="modal-skill-source">Quelle</div>
+                </div>
+                <button class="btn-close" onclick="closeSkillDetailModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-skill-body"></div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeSkillDetailModal()">Schließen</button>
+                <button class="btn btn-primary" id="modal-btn-compare">Zum Vergleich hinzufügen</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Cleanup Script Generator -->
+    <div id="modal-cleanup" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeCleanupModal()"></div>
+        <div class="modal-dialog modal-large">
+            <div class="modal-header">
+                <div>
+                    <h3>PowerShell Bereinigungs-Skript</h3>
+                    <div class="modal-subtitle">Sicheres Bereinigen der 72 Duplikate und Archivieren von Gaming-Ballast</div>
+                </div>
+                <button class="btn-close" onclick="closeCleanupModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Dieses Skript löscht keine unverzichtbaren Originale, sondern bereinigt lediglich redundante Kopien (z.B. in <code>.openclaw</code> oder doppelte Plugin-Kopien) und erstellt bei Bedarf ein Backup-Archiv.</p>
+                <pre class="code-box"><code id="cleanup-script-content"># Lädt...</code></pre>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeCleanupModal()">Schließen</button>
+                <button class="btn btn-primary" onclick="copyCleanupScript()">Skript kopieren</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

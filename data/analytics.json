@@ -1,0 +1,3071 @@
+{
+  "total_count": 268,
+  "exact_duplicate_groups": [
+    {
+      "hash": "d8d93967ba922c413e1d22ba55445037318669a2e27863f335bc65b2326651e9",
+      "count": 2,
+      "name": "bigquery-ai-ml",
+      "instances": [
+        {
+          "id": "ab2b200e4c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        },
+        {
+          "id": "af8ee5d373",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_ai_ml\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        }
+      ]
+    },
+    {
+      "hash": "cc46afd6d163a21b7fd684328f49e8c0eb2fe79f5f8e80723a5cdfa61932526c",
+      "count": 2,
+      "name": "bigquery-bigframes",
+      "instances": [
+        {
+          "id": "d17fc054de",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-bigframes\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        },
+        {
+          "id": "f6530946bd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_bigframes\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        }
+      ]
+    },
+    {
+      "hash": "8b34bf814948ecbc1bc4fa4cd3aa1da829339efbf95347cbe75985665e78bb27",
+      "count": 2,
+      "name": "bigquery-data-transfer-service",
+      "instances": [
+        {
+          "id": "3b27a0d892",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-data-transfer-service\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        },
+        {
+          "id": "ea27f31fca",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_data_transfer_service\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        }
+      ]
+    },
+    {
+      "hash": "43f7f28e56fc30fc375a22ccbdb0c7be415b1fbf41ed42272c6d5ef5375968f7",
+      "count": 2,
+      "name": "bigquery-sql",
+      "instances": [
+        {
+          "id": "fa3b99f527",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-sql\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        },
+        {
+          "id": "fcfa01f591",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_sql\\SKILL.md",
+          "source": "data-agent-kit (Plugin)"
+        }
+      ]
+    },
+    {
+      "hash": "ab55f9ced2a898db26519bba1283090cf1af985f83e6137195a34d7f2aedcc35",
+      "count": 2,
+      "name": "qt-cmake-project",
+      "instances": [
+        {
+          "id": "bc31b34372",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cmake-project\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "80b8868705",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-cmake-project\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "b317e7de2e5c3cdb060ceb2be3776cf8558108299b2d3ade88184346d7cc9de2",
+      "count": 2,
+      "name": "qt-cpp-docs",
+      "instances": [
+        {
+          "id": "5f9cac2c16",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cpp-docs\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "ec4c3f5b0b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-cpp-docs\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "ca52fa54c1ef5862c8b4357c23b56fc58eb5603683aa09196eea0d137e60921d",
+      "count": 2,
+      "name": "qt-cpp-review",
+      "instances": [
+        {
+          "id": "9ab10b7fc6",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cpp-review\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "f5768845e2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-cpp-review\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "d109c6fd5bd795b0560791cbb380d70506d6fc00d0ea8cfcdee3f7789e24ecb2",
+      "count": 2,
+      "name": "qt-figma-component-generation",
+      "instances": [
+        {
+          "id": "74573ef13b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-figma-component-generation\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "00ed791b15",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-figma-component-generation\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "8c6daa84dd944a940fc0b0d0d65bee775a5c72fe622371c6931597bf7e757ade",
+      "count": 2,
+      "name": "qt-figma-token-extraction",
+      "instances": [
+        {
+          "id": "926b59f0f2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-figma-token-extraction\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "e11b00309c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-figma-token-extraction\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "2abcd60a4d620692a2a47ae5160220f502353b32761e6fe56dcd5aea1084f972",
+      "count": 2,
+      "name": "qt-qml",
+      "instances": [
+        {
+          "id": "65a88d4426",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "7216fa0102",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "d6a02bd7ed38e08c1b81af84c53c10ab70b35ac7cfdb982932aed78f21529972",
+      "count": 2,
+      "name": "qt-qml-docs",
+      "instances": [
+        {
+          "id": "553fc5b078",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-docs\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "8374faf42b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-docs\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "9ba06d686e8537ef56d13ab5dd82420fc4ac6cb15565c43269517f15427cf735",
+      "count": 2,
+      "name": "qt-qml-profiler",
+      "instances": [
+        {
+          "id": "af75feb5eb",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-profiler\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "fff352bfae",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-profiler\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "fe4af707669a82e860e28f7125f78d988c51c588d3474f3707a20cdcac4cb815",
+      "count": 2,
+      "name": "qt-qml-review",
+      "instances": [
+        {
+          "id": "bd31331b60",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-review\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "b5627acca6",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-review\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "71077b350c0fab6658864ab7cf121b12278a716587c8d508dbf31bdf1a39d0ec",
+      "count": 2,
+      "name": "qt-qml-test",
+      "instances": [
+        {
+          "id": "a5f3209739",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-test\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "c629aa51ca",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-test\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "90242c780a078a5fba19db09f2d8e30a8acc759e6f83f77b3e8398c158c12a2a",
+      "count": 2,
+      "name": "qt-qml-test-run",
+      "instances": [
+        {
+          "id": "3af82c49a8",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-test-run\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "a74f227e70",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-test-run\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "e6f6df0ad1d7eb14312daf74c6e7ff429af5e3dae1023c981f4e27c0967560ed",
+      "count": 2,
+      "name": "qt-ui-design",
+      "instances": [
+        {
+          "id": "e735b0cd5e",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-ui-design\\SKILL.md",
+          "source": "qt-development-skills (Plugin)"
+        },
+        {
+          "id": "7cd4f4109b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-ui-design\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        }
+      ]
+    },
+    {
+      "hash": "185960eddb169cb81490e0d01efb9240663b8a465ca34ec34e0f015a727f06e4",
+      "count": 2,
+      "name": "ai-behavior-trees-utility-ai",
+      "instances": [
+        {
+          "id": "889bbee168",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\ai-behavior-trees-utility-ai\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "d4d88a69b8",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\ai-behavior-trees-utility-ai\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "4d8418660c0423164a0319d4429a196ee0ec86b4f05f764bae1a212f73e287e1",
+      "count": 2,
+      "name": "audio-design",
+      "instances": [
+        {
+          "id": "52e8143a2d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\audio-design\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "5075be7cb1",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\audio-design\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "cec5e9ef16aaf8d42a7b86e3b17678d57920ab7692bbbfe710a34ac0d09b32c7",
+      "count": 2,
+      "name": "camera-systems",
+      "instances": [
+        {
+          "id": "a95d7b998d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\camera-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "cefb299b0c",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\camera-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "1d972929333201a552087505cb26386569c844f092a51fd0dfe073f69d0e8556",
+      "count": 2,
+      "name": "card-game",
+      "instances": [
+        {
+          "id": "b55c403b83",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\card-game\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "33ea829997",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\card-game\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "50f38e738daf6a2a5cf2ec94c05ecb5f08a958ef506e70339b5e53b3e06d363d",
+      "count": 2,
+      "name": "codebase-architecture-reporter",
+      "instances": [
+        {
+          "id": "85f62ac65f",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\codebase-architecture-reporter\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "bc6e9d27bb",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\codebase-architecture-reporter\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "c178cde20316f7d326f2a853a76522b375b325346b5b8797ef52aa98740aff18",
+      "count": 2,
+      "name": "create-game-assets",
+      "instances": [
+        {
+          "id": "805d384bf4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\create-game-assets\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "86bd32efc0",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\create-game-assets\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "5f775befbeee852d2c9357b6ca98ee3010e7bd5cf40c04912dccdb2cc660a724",
+      "count": 2,
+      "name": "data-schema-reducer",
+      "instances": [
+        {
+          "id": "86ded13659",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\data-schema-reducer\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "838e3609df",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\data-schema-reducer\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "a667051d96fa9d3ec944b80a29ad40108fbe9a34e50c896015d53ad0fc194c09",
+      "count": 2,
+      "name": "dependency-context-collector",
+      "instances": [
+        {
+          "id": "2e416f1bc2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\dependency-context-collector\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "01076f7b7f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\dependency-context-collector\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "1ffcc673e7309c196ccab90676ca128a48b087f4f3ce3d2bcd03c4a988958bd1",
+      "count": 2,
+      "name": "dialogue-systems",
+      "instances": [
+        {
+          "id": "357eafc9cd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\dialogue-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "09d97bdad7",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\dialogue-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "feea87b6d271b582fd4c092705667ca5f634946dd5e458dba9b27aca8637a3ca",
+      "count": 2,
+      "name": "document-to-markdown",
+      "instances": [
+        {
+          "id": "4356f2210b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\document-to-markdown\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "212d844a47",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\document-to-markdown\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "b4772d548c9f8645c099d32014ba4c5eda11b09495881a8c257b419149ed4bff",
+      "count": 2,
+      "name": "fps-shooter",
+      "instances": [
+        {
+          "id": "39c7af3a5a",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\fps-shooter\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "fa877b0e6d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\fps-shooter\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "ef23a6440743b3583d1072c92f6b0b45f3d11df33b3b77db53bce8b82c2f8940",
+      "count": 2,
+      "name": "game-ai",
+      "instances": [
+        {
+          "id": "6482e84adf",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-ai\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "6f99b30498",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\game-ai\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "68fc818ad939151be2db9e358e4295a71830c19d61f3aff849f1599307f39f9d",
+      "count": 2,
+      "name": "game-feel",
+      "instances": [
+        {
+          "id": "455dd148d4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-feel\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "3d94aeb28e",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\game-feel\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "5d47346146fb777ac7a1541283e95cecd4b01d65e16505cfd01eb6a714a5bd31",
+      "count": 2,
+      "name": "game-jam",
+      "instances": [
+        {
+          "id": "4f8287de6c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-jam\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "bfd60cdd93",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\game-jam\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "8a094c84a377503aa8f4c40df676d1c6b6fc07d36ff95554ce06467f1614397e",
+      "count": 2,
+      "name": "game-ui-ux",
+      "instances": [
+        {
+          "id": "112b1cfba2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-ui-ux\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "0c269da13f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\game-ui-ux\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "bf6e0b3bd892f85082cf5e12ea300709a95f7ab2c189e0d55f7178715bd22730",
+      "count": 2,
+      "name": "git-diff-packager",
+      "instances": [
+        {
+          "id": "2a7cdbad25",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\git-diff-packager\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "5bcd24c1a5",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\git-diff-packager\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "4cb79ad13d54b5b7412efc978d8c5bc3dab529182feb531f304d7d75879f2308",
+      "count": 2,
+      "name": "input-systems",
+      "instances": [
+        {
+          "id": "0297810d5d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\input-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "24fb4fff0b",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\input-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "bcee8af7090e732b8168a5f3ac79493203d0688a038faafa509f9c468020dc3f",
+      "count": 2,
+      "name": "itch-publish",
+      "instances": [
+        {
+          "id": "0a26005e03",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\itch-publish\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "e19de66aae",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\itch-publish\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "f1656cb00b9af8dc625a9655448b410b37ce6f1e523048a5abf09fda25cbfd32",
+      "count": 2,
+      "name": "level-design",
+      "instances": [
+        {
+          "id": "7e288813fd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\level-design\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "70caab00fc",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\level-design\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "11e1a84f2742ccb2dce238bd7915a15de1adb3d3c86035e400eb7bf7740fefbe",
+      "count": 2,
+      "name": "log-stacktrace-compressor",
+      "instances": [
+        {
+          "id": "3d807aaf47",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\log-stacktrace-compressor\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "2190690696",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\log-stacktrace-compressor\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "ddfc68c927f9a482d78cc0e103edb2e2711bc876a5965ff53eabd9a7d308dfab",
+      "count": 2,
+      "name": "performance-optimization",
+      "instances": [
+        {
+          "id": "89cf9ba8e4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\performance-optimization\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "8f6131b737",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\performance-optimization\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "4b7186f03c236bbe83dfd8f24467cc4429ff47cb870e04ef939320165b6bcd04",
+      "count": 2,
+      "name": "phaser-arcade-physics",
+      "instances": [
+        {
+          "id": "ade7989e00",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\phaser-arcade-physics\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "fe284d4b3d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\phaser-arcade-physics\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "101c9382dd8a68f2573ef83d978bd19432f61512c5aa83e8c2a5cf7e7e3e38b4",
+      "count": 2,
+      "name": "phaser-core",
+      "instances": [
+        {
+          "id": "006a0d492d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\phaser-core\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "7787093b78",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\phaser-core\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "faa9a50d465c16d0060af8c8e20533efb829e07616ec01de4cbdb8d536a7d986",
+      "count": 2,
+      "name": "physics-tuning",
+      "instances": [
+        {
+          "id": "c0fd764a06",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\physics-tuning\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "3d018e652d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\physics-tuning\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "5c22e69830fd718ffc5bfca72489127099e271899a485e5d38ca7cd8ab658c85",
+      "count": 2,
+      "name": "pixijs-rendering",
+      "instances": [
+        {
+          "id": "ec168d607e",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\pixijs-rendering\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "e883271e75",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\pixijs-rendering\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "ffa6800e26702c371543ebafc721593ba7d19eb9864b6e28dec3c3155b15f1a7",
+      "count": 2,
+      "name": "platformer",
+      "instances": [
+        {
+          "id": "a0c4d2e4b4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\platformer\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "96f0a03a06",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\platformer\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "709ccd2dd1e02177f45ccc903bb11d20d3c57365761fb2c9a784880e7b2c9270",
+      "count": 2,
+      "name": "procedural-gen",
+      "instances": [
+        {
+          "id": "665add5689",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\procedural-gen\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "5a7b68e1c0",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\procedural-gen\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "02491395c621833d2252f7a33a96aa11f26eb48523fea167c68272fb3c785ba1",
+      "count": 2,
+      "name": "prototype-fast",
+      "instances": [
+        {
+          "id": "2209a332e8",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\prototype-fast\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "b38055ef79",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\prototype-fast\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "a2f40c5c684b0d0f09d0b1db1cfcb04ca7e4e6e8bca946022f8318f5fbc44b4c",
+      "count": 2,
+      "name": "puzzle",
+      "instances": [
+        {
+          "id": "cc44d87534",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\puzzle\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "57b188a26e",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\puzzle\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "e92c9a139faff1d2fe7e62f3a470f87be43e5942b0a89ac041dd1856402068d9",
+      "count": 2,
+      "name": "pygame-core",
+      "instances": [
+        {
+          "id": "982c441e84",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\pygame-core\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "9bfca21aa6",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\other-engines\\pygame-core\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "4ec2607c6568f28b22740f473e71955b1df1472be84f2918ce14b0d75aaf085c",
+      "count": 2,
+      "name": "python-code-skeletonizer",
+      "instances": [
+        {
+          "id": "a0cf5215ab",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\python-code-skeletonizer\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "96d5f7876d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\python-code-skeletonizer\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "05dc641b7360ade29331f87262aedf2e1d9449812c95cad24decee652450b6ca",
+      "count": 2,
+      "name": "roguelike",
+      "instances": [
+        {
+          "id": "14c5855a11",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\roguelike\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "e893500599",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\roguelike\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "548b9c354f4bc152607b4f00f575f40786d28be92d1f4354c8802437f958488e",
+      "count": 2,
+      "name": "router",
+      "instances": [
+        {
+          "id": "8e5b34e6e4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\router\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "448f9bc43f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\router\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "f33ea8698049050be589c50c532e06adeab52fbeacff81eafb909f230a38745b",
+      "count": 2,
+      "name": "rpg",
+      "instances": [
+        {
+          "id": "16e74af05c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\rpg\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "220d7bd921",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\rpg\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "bf9184965b3eb4bc0b20be00681d08ef1af63fd85ca5b7afb7453ca09e80e490",
+      "count": 2,
+      "name": "save-systems",
+      "instances": [
+        {
+          "id": "1a4bddd43a",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\save-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "24d49dc818",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\save-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "e89558b15691c891e12cece81d4bafd4d61159bd4de2ae580ac109aecadca7ad",
+      "count": 2,
+      "name": "shader-programming",
+      "instances": [
+        {
+          "id": "e55f7ef3e3",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\shader-programming\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "175aa05dfd",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\shader-programming\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "39ae5448175ec1a65af60874872a7b120b6c906ca3c146588c2a1aaf13948771",
+      "count": 2,
+      "name": "steam-publish",
+      "instances": [
+        {
+          "id": "b5b4a1a607",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\steam-publish\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "b1f326aa17",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\steam-publish\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "cbf1981c1a446ba7e3edbc18b3ff92e11d872386f889f9316bab0deb240df5bb",
+      "count": 2,
+      "name": "survival-crafting",
+      "instances": [
+        {
+          "id": "cf0a4a9961",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\survival-crafting\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "4e660af008",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\survival-crafting\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "d37a50198d95ee3d4e50b04014e86222df5ba177daec20b1e7ed01890cead2e2",
+      "count": 2,
+      "name": "threejs-gltf-loading",
+      "instances": [
+        {
+          "id": "2580b028ad",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\threejs-gltf-loading\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "bcf8b31b20",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\threejs-gltf-loading\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "5377a67ebd8058574ca1fe7bc82ced3c5b98380f3d860ef146b0727a3b6ad2af",
+      "count": 2,
+      "name": "threejs-materials-lighting",
+      "instances": [
+        {
+          "id": "3d51be4377",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\threejs-materials-lighting\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "74a2bc7afe",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\threejs-materials-lighting\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "8b7ef10fd2daa356182ac74f8c51cfb166345750df919c4195c36cfa00e1c80b",
+      "count": 2,
+      "name": "threejs-scene-setup",
+      "instances": [
+        {
+          "id": "6c0c2bec23",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\threejs-scene-setup\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "a5a941f640",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\threejs-scene-setup\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "fc55dc3a96576953a7d283d7f232b8d65b280fd3e3b103c78ef53c3eaef8bedc",
+      "count": 2,
+      "name": "token-usage-router",
+      "instances": [
+        {
+          "id": "aa8aa487bd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\token-usage-router\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "b1754f8307",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\token-usage-router\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo"
+        }
+      ]
+    },
+    {
+      "hash": "27f35ea5defd81bbb81d61984b4394a11c2c6f7ce141ca8e70b7f55e97485e25",
+      "count": 2,
+      "name": "tower-defense",
+      "instances": [
+        {
+          "id": "b7c97e05b6",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\tower-defense\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "f1d3eda622",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\tower-defense\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "081f25d30ca70219e54496a4b19f3d8568488e3e32d51af6b743ca4d67a6cf03",
+      "count": 2,
+      "name": "visual-novel",
+      "instances": [
+        {
+          "id": "9db387753e",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\visual-novel\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)"
+        },
+        {
+          "id": "5836eb108f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\visual-novel\\SKILL.md",
+          "source": "Awesome GameDev Repo"
+        }
+      ]
+    },
+    {
+      "hash": "70e10d74aa367ee63060b64edc397c5998c03da0fbdaf120f5aa8c94d373b77d",
+      "count": 2,
+      "name": "dotnet-webapi",
+      "instances": [
+        {
+          "id": "e58a70c3b0",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.2400e0ac-e30e-4863-b206-f8049d70ba95\\src\\copilot\\skills\\dotnet-aspnetcore\\dotnet-webapi\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "ad522b0723",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-dotnettools.csdevkit-3.40.210-win32-x64\\src\\copilot\\skills\\dotnet-aspnetcore\\dotnet-webapi\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "9980c08c82a1f0a961892472ea773d6b5342b080e46d92e9db3c109814e1afad",
+      "count": 2,
+      "name": "analyzing-dotnet-performance",
+      "instances": [
+        {
+          "id": "d985298c49",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.2400e0ac-e30e-4863-b206-f8049d70ba95\\src\\copilot\\skills\\dotnet-diag\\analyzing-dotnet-performance\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "ebdb76c1bf",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-dotnettools.csdevkit-3.40.210-win32-x64\\src\\copilot\\skills\\dotnet-diag\\analyzing-dotnet-performance\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "079570c1f0264110547764b31b30d95d50daf1251350e53c7e050c0e4b3fdcc9",
+      "count": 2,
+      "name": "run-tests",
+      "instances": [
+        {
+          "id": "1ea1ee2552",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.2400e0ac-e30e-4863-b206-f8049d70ba95\\src\\copilot\\skills\\dotnet-test\\run-tests\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "c854900d31",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-dotnettools.csdevkit-3.40.210-win32-x64\\src\\copilot\\skills\\dotnet-test\\run-tests\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "bb1fd6756579eaf44ca9dc610666edaea778c8bbc30c62b10b1d22e596f46872",
+      "count": 2,
+      "name": "add-python-version-support",
+      "instances": [
+        {
+          "id": "bd6a7355fc",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\add-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "176ff901c5",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\add-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "351382db1fefca482a2ac16ca7abcba5922fda191adfe16b2796b61aaa7c911a",
+      "count": 2,
+      "name": "drop-python-version-support",
+      "instances": [
+        {
+          "id": "938a32c323",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\drop-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "7e38a07f41",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\drop-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "c5ed79c6eeb5edd50d07a05e30fa23423e30936293e20f24eb6e5f841531ab4a",
+      "count": 2,
+      "name": "pylance-docs",
+      "instances": [
+        {
+          "id": "a015e43a1f",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\pylance-docs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "1ebc9b012a",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\pylance-docs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "94b2e48cff08098392547a3a3c3a1cb746cfd6ad314607485944f2a819f20a79",
+      "count": 2,
+      "name": "pylance-python-profiling",
+      "instances": [
+        {
+          "id": "97b189b480",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\pylance-python-profiling\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "8504ecd418",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\pylance-python-profiling\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "059ab3aedf8edd1664bcf5e9b83ed9949dee56d2d91d46a42f29e7b3e4475af1",
+      "count": 2,
+      "name": "pylance-refactoring",
+      "instances": [
+        {
+          "id": "f88e91cf79",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\pylance-refactoring\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "71144d8f39",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\pylance-refactoring\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "4826e5790573d59dc1b6ebec72dbdac302dbbff9a8ef26cb6dbffe9831f9e438",
+      "count": 2,
+      "name": "python-add-type-annotations",
+      "instances": [
+        {
+          "id": "96d4146785",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-add-type-annotations\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "11e947888d",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-add-type-annotations\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "fa3adb23d5867f06d5436e89cdbcc558d1c35b6e077bab23ed93c07a83d3ba9c",
+      "count": 2,
+      "name": "python-fact-grounded-coding",
+      "instances": [
+        {
+          "id": "64d61bce73",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-fact-grounded-coding\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "a96e065abc",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-fact-grounded-coding\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "4e87bb62af3d48e1092be433d4a197e0e1a03c59453130618670fa05b9040847",
+      "count": 2,
+      "name": "python-type-inference",
+      "instances": [
+        {
+          "id": "3f13342740",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-type-inference\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "b63e865e69",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-type-inference\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    },
+    {
+      "hash": "7e28fe1dd1ee0df5275734f085b29b19f32f6399007b7cb01b09b51280356d96",
+      "count": 2,
+      "name": "python-write-stubs",
+      "instances": [
+        {
+          "id": "e9c2794e92",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-write-stubs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        },
+        {
+          "id": "dc0828eb28",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-write-stubs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)"
+        }
+      ]
+    }
+  ],
+  "name_collision_groups": [
+    {
+      "name": "performance-optimization",
+      "count": 3,
+      "instances": [
+        {
+          "id": "c0c775ad50",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\agent-skills\\skills\\performance-optimization\\SKILL.md",
+          "source": "agent-skills (Plugin)",
+          "sha256": "665a83a7218d6aebd02ca329a7b2422cf28f7c55cb56f870c05e12047770245c"
+        },
+        {
+          "id": "89cf9ba8e4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\performance-optimization\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "ddfc68c927f9a482d78cc0e103edb2e2711bc876a5965ff53eabd9a7d308dfab"
+        },
+        {
+          "id": "8f6131b737",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\performance-optimization\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "ddfc68c927f9a482d78cc0e103edb2e2711bc876a5965ff53eabd9a7d308dfab"
+        }
+      ]
+    },
+    {
+      "name": "bigquery-ai-ml",
+      "count": 2,
+      "instances": [
+        {
+          "id": "ab2b200e4c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "d8d93967ba922c413e1d22ba55445037318669a2e27863f335bc65b2326651e9"
+        },
+        {
+          "id": "af8ee5d373",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_ai_ml\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "d8d93967ba922c413e1d22ba55445037318669a2e27863f335bc65b2326651e9"
+        }
+      ]
+    },
+    {
+      "name": "bigquery-bigframes",
+      "count": 2,
+      "instances": [
+        {
+          "id": "d17fc054de",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-bigframes\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "cc46afd6d163a21b7fd684328f49e8c0eb2fe79f5f8e80723a5cdfa61932526c"
+        },
+        {
+          "id": "f6530946bd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_bigframes\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "cc46afd6d163a21b7fd684328f49e8c0eb2fe79f5f8e80723a5cdfa61932526c"
+        }
+      ]
+    },
+    {
+      "name": "bigquery-data-transfer-service",
+      "count": 2,
+      "instances": [
+        {
+          "id": "3b27a0d892",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-data-transfer-service\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "8b34bf814948ecbc1bc4fa4cd3aa1da829339efbf95347cbe75985665e78bb27"
+        },
+        {
+          "id": "ea27f31fca",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_data_transfer_service\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "8b34bf814948ecbc1bc4fa4cd3aa1da829339efbf95347cbe75985665e78bb27"
+        }
+      ]
+    },
+    {
+      "name": "bigquery-sql",
+      "count": 2,
+      "instances": [
+        {
+          "id": "fa3b99f527",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-sql\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "43f7f28e56fc30fc375a22ccbdb0c7be415b1fbf41ed42272c6d5ef5375968f7"
+        },
+        {
+          "id": "fcfa01f591",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_sql\\SKILL.md",
+          "source": "data-agent-kit (Plugin)",
+          "sha256": "43f7f28e56fc30fc375a22ccbdb0c7be415b1fbf41ed42272c6d5ef5375968f7"
+        }
+      ]
+    },
+    {
+      "name": "ponytail",
+      "count": 2,
+      "instances": [
+        {
+          "id": "3f47cf2dbd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\.openclaw\\skills\\ponytail\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "dd240060d5734a58fe2783916a63f9401fed75c5f87742dd663a66f9ed4c8c65"
+        },
+        {
+          "id": "2974d7fc7c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "1316a2f3f95741d2300b116fe0c2d81ce4a9568656ed0a62643f54aaf09957f2"
+        }
+      ]
+    },
+    {
+      "name": "ponytail-audit",
+      "count": 2,
+      "instances": [
+        {
+          "id": "ae71a8749b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\.openclaw\\skills\\ponytail-audit\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "baba579ec3261cef555797c06484b4374ff4febbdb3eb0b4333e6d92b3434f87"
+        },
+        {
+          "id": "a14a2fd496",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-audit\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "5560b8e383dbe2ddfddc873a1e2bf2e586e23e0cd7d995537482b2315331f6d1"
+        }
+      ]
+    },
+    {
+      "name": "ponytail-debt",
+      "count": 2,
+      "instances": [
+        {
+          "id": "25c621fce4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\.openclaw\\skills\\ponytail-debt\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "b0281c1d96fa5acc411ab6bbc219802c5551ecc73f4e3be3a3b74ada78a84bcb"
+        },
+        {
+          "id": "04932270a2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-debt\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "c84fba75f0ca12bfe83f9a78ea02fd125c5dd3f1fbb18124105a489937f284e6"
+        }
+      ]
+    },
+    {
+      "name": "ponytail-gain",
+      "count": 2,
+      "instances": [
+        {
+          "id": "18ef5fffa0",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\.openclaw\\skills\\ponytail-gain\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "6268baa130520efa48406ee9463e0c844cbfea9a299a4687b1adf8352f2471f6"
+        },
+        {
+          "id": "bb1b256b0f",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-gain\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "24e01d1c9715cb136ba1c4f1e52a95940c0193558b876828e537736480d6408b"
+        }
+      ]
+    },
+    {
+      "name": "ponytail-help",
+      "count": 2,
+      "instances": [
+        {
+          "id": "4fc26905d9",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\.openclaw\\skills\\ponytail-help\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "be2bab79e073c0cc5d58f21a4e2d5bdfdaa3baec832d9575493636752b79161b"
+        },
+        {
+          "id": "66f1f56aee",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-help\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "2264d1615117b02b0fd5a69ec84cd2757006471a78e4d6c22eed6d581c1d37a4"
+        }
+      ]
+    },
+    {
+      "name": "ponytail-review",
+      "count": 2,
+      "instances": [
+        {
+          "id": "98cc34312b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\.openclaw\\skills\\ponytail-review\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "76addbc1c5293d5a2da42828f4bff1cee5050492d06c194354df2f6329398df5"
+        },
+        {
+          "id": "495f62c6f4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-review\\SKILL.md",
+          "source": "ponytail (Plugin)",
+          "sha256": "40df33b58fc6ef889b93585733feb9566b76e9586efa7f376785c1e995197ac0"
+        }
+      ]
+    },
+    {
+      "name": "qt-cmake-project",
+      "count": 2,
+      "instances": [
+        {
+          "id": "bc31b34372",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cmake-project\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "ab55f9ced2a898db26519bba1283090cf1af985f83e6137195a34d7f2aedcc35"
+        },
+        {
+          "id": "80b8868705",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-cmake-project\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "ab55f9ced2a898db26519bba1283090cf1af985f83e6137195a34d7f2aedcc35"
+        }
+      ]
+    },
+    {
+      "name": "qt-cpp-docs",
+      "count": 2,
+      "instances": [
+        {
+          "id": "5f9cac2c16",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cpp-docs\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "b317e7de2e5c3cdb060ceb2be3776cf8558108299b2d3ade88184346d7cc9de2"
+        },
+        {
+          "id": "ec4c3f5b0b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-cpp-docs\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "b317e7de2e5c3cdb060ceb2be3776cf8558108299b2d3ade88184346d7cc9de2"
+        }
+      ]
+    },
+    {
+      "name": "qt-cpp-review",
+      "count": 2,
+      "instances": [
+        {
+          "id": "9ab10b7fc6",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cpp-review\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "ca52fa54c1ef5862c8b4357c23b56fc58eb5603683aa09196eea0d137e60921d"
+        },
+        {
+          "id": "f5768845e2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-cpp-review\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "ca52fa54c1ef5862c8b4357c23b56fc58eb5603683aa09196eea0d137e60921d"
+        }
+      ]
+    },
+    {
+      "name": "qt-figma-component-generation",
+      "count": 2,
+      "instances": [
+        {
+          "id": "74573ef13b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-figma-component-generation\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "d109c6fd5bd795b0560791cbb380d70506d6fc00d0ea8cfcdee3f7789e24ecb2"
+        },
+        {
+          "id": "00ed791b15",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-figma-component-generation\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "d109c6fd5bd795b0560791cbb380d70506d6fc00d0ea8cfcdee3f7789e24ecb2"
+        }
+      ]
+    },
+    {
+      "name": "qt-figma-token-extraction",
+      "count": 2,
+      "instances": [
+        {
+          "id": "926b59f0f2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-figma-token-extraction\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "8c6daa84dd944a940fc0b0d0d65bee775a5c72fe622371c6931597bf7e757ade"
+        },
+        {
+          "id": "e11b00309c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-figma-token-extraction\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "8c6daa84dd944a940fc0b0d0d65bee775a5c72fe622371c6931597bf7e757ade"
+        }
+      ]
+    },
+    {
+      "name": "qt-qml",
+      "count": 2,
+      "instances": [
+        {
+          "id": "65a88d4426",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "2abcd60a4d620692a2a47ae5160220f502353b32761e6fe56dcd5aea1084f972"
+        },
+        {
+          "id": "7216fa0102",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "2abcd60a4d620692a2a47ae5160220f502353b32761e6fe56dcd5aea1084f972"
+        }
+      ]
+    },
+    {
+      "name": "qt-qml-docs",
+      "count": 2,
+      "instances": [
+        {
+          "id": "553fc5b078",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-docs\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "d6a02bd7ed38e08c1b81af84c53c10ab70b35ac7cfdb982932aed78f21529972"
+        },
+        {
+          "id": "8374faf42b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-docs\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "d6a02bd7ed38e08c1b81af84c53c10ab70b35ac7cfdb982932aed78f21529972"
+        }
+      ]
+    },
+    {
+      "name": "qt-qml-profiler",
+      "count": 2,
+      "instances": [
+        {
+          "id": "af75feb5eb",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-profiler\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "9ba06d686e8537ef56d13ab5dd82420fc4ac6cb15565c43269517f15427cf735"
+        },
+        {
+          "id": "fff352bfae",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-profiler\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "9ba06d686e8537ef56d13ab5dd82420fc4ac6cb15565c43269517f15427cf735"
+        }
+      ]
+    },
+    {
+      "name": "qt-qml-review",
+      "count": 2,
+      "instances": [
+        {
+          "id": "bd31331b60",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-review\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "fe4af707669a82e860e28f7125f78d988c51c588d3474f3707a20cdcac4cb815"
+        },
+        {
+          "id": "b5627acca6",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-review\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "fe4af707669a82e860e28f7125f78d988c51c588d3474f3707a20cdcac4cb815"
+        }
+      ]
+    },
+    {
+      "name": "qt-qml-test",
+      "count": 2,
+      "instances": [
+        {
+          "id": "a5f3209739",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-test\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "71077b350c0fab6658864ab7cf121b12278a716587c8d508dbf31bdf1a39d0ec"
+        },
+        {
+          "id": "c629aa51ca",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-test\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "71077b350c0fab6658864ab7cf121b12278a716587c8d508dbf31bdf1a39d0ec"
+        }
+      ]
+    },
+    {
+      "name": "qt-qml-test-run",
+      "count": 2,
+      "instances": [
+        {
+          "id": "3af82c49a8",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-test-run\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "90242c780a078a5fba19db09f2d8e30a8acc759e6f83f77b3e8398c158c12a2a"
+        },
+        {
+          "id": "a74f227e70",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-qml-test-run\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "90242c780a078a5fba19db09f2d8e30a8acc759e6f83f77b3e8398c158c12a2a"
+        }
+      ]
+    },
+    {
+      "name": "qt-ui-design",
+      "count": 2,
+      "instances": [
+        {
+          "id": "e735b0cd5e",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-ui-design\\SKILL.md",
+          "source": "qt-development-skills (Plugin)",
+          "sha256": "e6f6df0ad1d7eb14312daf74c6e7ff429af5e3dae1023c981f4e27c0967560ed"
+        },
+        {
+          "id": "7cd4f4109b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\qt-ui-design\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "e6f6df0ad1d7eb14312daf74c6e7ff429af5e3dae1023c981f4e27c0967560ed"
+        }
+      ]
+    },
+    {
+      "name": "ai-behavior-trees-utility-ai",
+      "count": 2,
+      "instances": [
+        {
+          "id": "889bbee168",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\ai-behavior-trees-utility-ai\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "185960eddb169cb81490e0d01efb9240663b8a465ca34ec34e0f015a727f06e4"
+        },
+        {
+          "id": "d4d88a69b8",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\ai-behavior-trees-utility-ai\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "185960eddb169cb81490e0d01efb9240663b8a465ca34ec34e0f015a727f06e4"
+        }
+      ]
+    },
+    {
+      "name": "audio-design",
+      "count": 2,
+      "instances": [
+        {
+          "id": "52e8143a2d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\audio-design\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "4d8418660c0423164a0319d4429a196ee0ec86b4f05f764bae1a212f73e287e1"
+        },
+        {
+          "id": "5075be7cb1",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\audio-design\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "4d8418660c0423164a0319d4429a196ee0ec86b4f05f764bae1a212f73e287e1"
+        }
+      ]
+    },
+    {
+      "name": "camera-systems",
+      "count": 2,
+      "instances": [
+        {
+          "id": "a95d7b998d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\camera-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "cec5e9ef16aaf8d42a7b86e3b17678d57920ab7692bbbfe710a34ac0d09b32c7"
+        },
+        {
+          "id": "cefb299b0c",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\camera-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "cec5e9ef16aaf8d42a7b86e3b17678d57920ab7692bbbfe710a34ac0d09b32c7"
+        }
+      ]
+    },
+    {
+      "name": "card-game",
+      "count": 2,
+      "instances": [
+        {
+          "id": "b55c403b83",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\card-game\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "1d972929333201a552087505cb26386569c844f092a51fd0dfe073f69d0e8556"
+        },
+        {
+          "id": "33ea829997",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\card-game\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "1d972929333201a552087505cb26386569c844f092a51fd0dfe073f69d0e8556"
+        }
+      ]
+    },
+    {
+      "name": "codebase-architecture-reporter",
+      "count": 2,
+      "instances": [
+        {
+          "id": "85f62ac65f",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\codebase-architecture-reporter\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "50f38e738daf6a2a5cf2ec94c05ecb5f08a958ef506e70339b5e53b3e06d363d"
+        },
+        {
+          "id": "bc6e9d27bb",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\codebase-architecture-reporter\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "50f38e738daf6a2a5cf2ec94c05ecb5f08a958ef506e70339b5e53b3e06d363d"
+        }
+      ]
+    },
+    {
+      "name": "create-game-assets",
+      "count": 2,
+      "instances": [
+        {
+          "id": "805d384bf4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\create-game-assets\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "c178cde20316f7d326f2a853a76522b375b325346b5b8797ef52aa98740aff18"
+        },
+        {
+          "id": "86bd32efc0",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\create-game-assets\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "c178cde20316f7d326f2a853a76522b375b325346b5b8797ef52aa98740aff18"
+        }
+      ]
+    },
+    {
+      "name": "data-schema-reducer",
+      "count": 2,
+      "instances": [
+        {
+          "id": "86ded13659",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\data-schema-reducer\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "5f775befbeee852d2c9357b6ca98ee3010e7bd5cf40c04912dccdb2cc660a724"
+        },
+        {
+          "id": "838e3609df",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\data-schema-reducer\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "5f775befbeee852d2c9357b6ca98ee3010e7bd5cf40c04912dccdb2cc660a724"
+        }
+      ]
+    },
+    {
+      "name": "dependency-context-collector",
+      "count": 2,
+      "instances": [
+        {
+          "id": "2e416f1bc2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\dependency-context-collector\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "a667051d96fa9d3ec944b80a29ad40108fbe9a34e50c896015d53ad0fc194c09"
+        },
+        {
+          "id": "01076f7b7f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\dependency-context-collector\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "a667051d96fa9d3ec944b80a29ad40108fbe9a34e50c896015d53ad0fc194c09"
+        }
+      ]
+    },
+    {
+      "name": "dialogue-systems",
+      "count": 2,
+      "instances": [
+        {
+          "id": "357eafc9cd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\dialogue-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "1ffcc673e7309c196ccab90676ca128a48b087f4f3ce3d2bcd03c4a988958bd1"
+        },
+        {
+          "id": "09d97bdad7",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\dialogue-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "1ffcc673e7309c196ccab90676ca128a48b087f4f3ce3d2bcd03c4a988958bd1"
+        }
+      ]
+    },
+    {
+      "name": "document-to-markdown",
+      "count": 2,
+      "instances": [
+        {
+          "id": "4356f2210b",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\document-to-markdown\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "feea87b6d271b582fd4c092705667ca5f634946dd5e458dba9b27aca8637a3ca"
+        },
+        {
+          "id": "212d844a47",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\document-to-markdown\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "feea87b6d271b582fd4c092705667ca5f634946dd5e458dba9b27aca8637a3ca"
+        }
+      ]
+    },
+    {
+      "name": "fps-shooter",
+      "count": 2,
+      "instances": [
+        {
+          "id": "39c7af3a5a",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\fps-shooter\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "b4772d548c9f8645c099d32014ba4c5eda11b09495881a8c257b419149ed4bff"
+        },
+        {
+          "id": "fa877b0e6d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\fps-shooter\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "b4772d548c9f8645c099d32014ba4c5eda11b09495881a8c257b419149ed4bff"
+        }
+      ]
+    },
+    {
+      "name": "game-ai",
+      "count": 2,
+      "instances": [
+        {
+          "id": "6482e84adf",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-ai\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "ef23a6440743b3583d1072c92f6b0b45f3d11df33b3b77db53bce8b82c2f8940"
+        },
+        {
+          "id": "6f99b30498",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\game-ai\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "ef23a6440743b3583d1072c92f6b0b45f3d11df33b3b77db53bce8b82c2f8940"
+        }
+      ]
+    },
+    {
+      "name": "game-feel",
+      "count": 2,
+      "instances": [
+        {
+          "id": "455dd148d4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-feel\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "68fc818ad939151be2db9e358e4295a71830c19d61f3aff849f1599307f39f9d"
+        },
+        {
+          "id": "3d94aeb28e",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\game-feel\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "68fc818ad939151be2db9e358e4295a71830c19d61f3aff849f1599307f39f9d"
+        }
+      ]
+    },
+    {
+      "name": "game-jam",
+      "count": 2,
+      "instances": [
+        {
+          "id": "4f8287de6c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-jam\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "5d47346146fb777ac7a1541283e95cecd4b01d65e16505cfd01eb6a714a5bd31"
+        },
+        {
+          "id": "bfd60cdd93",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\game-jam\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "5d47346146fb777ac7a1541283e95cecd4b01d65e16505cfd01eb6a714a5bd31"
+        }
+      ]
+    },
+    {
+      "name": "game-ui-ux",
+      "count": 2,
+      "instances": [
+        {
+          "id": "112b1cfba2",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-ui-ux\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "8a094c84a377503aa8f4c40df676d1c6b6fc07d36ff95554ce06467f1614397e"
+        },
+        {
+          "id": "0c269da13f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\game-ui-ux\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "8a094c84a377503aa8f4c40df676d1c6b6fc07d36ff95554ce06467f1614397e"
+        }
+      ]
+    },
+    {
+      "name": "git-diff-packager",
+      "count": 2,
+      "instances": [
+        {
+          "id": "2a7cdbad25",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\git-diff-packager\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "bf6e0b3bd892f85082cf5e12ea300709a95f7ab2c189e0d55f7178715bd22730"
+        },
+        {
+          "id": "5bcd24c1a5",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\git-diff-packager\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "bf6e0b3bd892f85082cf5e12ea300709a95f7ab2c189e0d55f7178715bd22730"
+        }
+      ]
+    },
+    {
+      "name": "input-systems",
+      "count": 2,
+      "instances": [
+        {
+          "id": "0297810d5d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\input-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "4cb79ad13d54b5b7412efc978d8c5bc3dab529182feb531f304d7d75879f2308"
+        },
+        {
+          "id": "24fb4fff0b",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\input-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "4cb79ad13d54b5b7412efc978d8c5bc3dab529182feb531f304d7d75879f2308"
+        }
+      ]
+    },
+    {
+      "name": "itch-publish",
+      "count": 2,
+      "instances": [
+        {
+          "id": "0a26005e03",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\itch-publish\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "bcee8af7090e732b8168a5f3ac79493203d0688a038faafa509f9c468020dc3f"
+        },
+        {
+          "id": "e19de66aae",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\itch-publish\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "bcee8af7090e732b8168a5f3ac79493203d0688a038faafa509f9c468020dc3f"
+        }
+      ]
+    },
+    {
+      "name": "level-design",
+      "count": 2,
+      "instances": [
+        {
+          "id": "7e288813fd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\level-design\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "f1656cb00b9af8dc625a9655448b410b37ce6f1e523048a5abf09fda25cbfd32"
+        },
+        {
+          "id": "70caab00fc",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\level-design\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "f1656cb00b9af8dc625a9655448b410b37ce6f1e523048a5abf09fda25cbfd32"
+        }
+      ]
+    },
+    {
+      "name": "log-stacktrace-compressor",
+      "count": 2,
+      "instances": [
+        {
+          "id": "3d807aaf47",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\log-stacktrace-compressor\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "11e1a84f2742ccb2dce238bd7915a15de1adb3d3c86035e400eb7bf7740fefbe"
+        },
+        {
+          "id": "2190690696",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\log-stacktrace-compressor\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "11e1a84f2742ccb2dce238bd7915a15de1adb3d3c86035e400eb7bf7740fefbe"
+        }
+      ]
+    },
+    {
+      "name": "phaser-arcade-physics",
+      "count": 2,
+      "instances": [
+        {
+          "id": "ade7989e00",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\phaser-arcade-physics\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "4b7186f03c236bbe83dfd8f24467cc4429ff47cb870e04ef939320165b6bcd04"
+        },
+        {
+          "id": "fe284d4b3d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\phaser-arcade-physics\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "4b7186f03c236bbe83dfd8f24467cc4429ff47cb870e04ef939320165b6bcd04"
+        }
+      ]
+    },
+    {
+      "name": "phaser-core",
+      "count": 2,
+      "instances": [
+        {
+          "id": "006a0d492d",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\phaser-core\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "101c9382dd8a68f2573ef83d978bd19432f61512c5aa83e8c2a5cf7e7e3e38b4"
+        },
+        {
+          "id": "7787093b78",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\phaser-core\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "101c9382dd8a68f2573ef83d978bd19432f61512c5aa83e8c2a5cf7e7e3e38b4"
+        }
+      ]
+    },
+    {
+      "name": "physics-tuning",
+      "count": 2,
+      "instances": [
+        {
+          "id": "c0fd764a06",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\physics-tuning\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "faa9a50d465c16d0060af8c8e20533efb829e07616ec01de4cbdb8d536a7d986"
+        },
+        {
+          "id": "3d018e652d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\physics-tuning\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "faa9a50d465c16d0060af8c8e20533efb829e07616ec01de4cbdb8d536a7d986"
+        }
+      ]
+    },
+    {
+      "name": "pixijs-rendering",
+      "count": 2,
+      "instances": [
+        {
+          "id": "ec168d607e",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\pixijs-rendering\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "5c22e69830fd718ffc5bfca72489127099e271899a485e5d38ca7cd8ab658c85"
+        },
+        {
+          "id": "e883271e75",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\pixijs-rendering\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "5c22e69830fd718ffc5bfca72489127099e271899a485e5d38ca7cd8ab658c85"
+        }
+      ]
+    },
+    {
+      "name": "platformer",
+      "count": 2,
+      "instances": [
+        {
+          "id": "a0c4d2e4b4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\platformer\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "ffa6800e26702c371543ebafc721593ba7d19eb9864b6e28dec3c3155b15f1a7"
+        },
+        {
+          "id": "96f0a03a06",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\platformer\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "ffa6800e26702c371543ebafc721593ba7d19eb9864b6e28dec3c3155b15f1a7"
+        }
+      ]
+    },
+    {
+      "name": "procedural-gen",
+      "count": 2,
+      "instances": [
+        {
+          "id": "665add5689",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\procedural-gen\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "709ccd2dd1e02177f45ccc903bb11d20d3c57365761fb2c9a784880e7b2c9270"
+        },
+        {
+          "id": "5a7b68e1c0",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\procedural-gen\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "709ccd2dd1e02177f45ccc903bb11d20d3c57365761fb2c9a784880e7b2c9270"
+        }
+      ]
+    },
+    {
+      "name": "prototype-fast",
+      "count": 2,
+      "instances": [
+        {
+          "id": "2209a332e8",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\prototype-fast\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "02491395c621833d2252f7a33a96aa11f26eb48523fea167c68272fb3c785ba1"
+        },
+        {
+          "id": "b38055ef79",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\prototype-fast\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "02491395c621833d2252f7a33a96aa11f26eb48523fea167c68272fb3c785ba1"
+        }
+      ]
+    },
+    {
+      "name": "puzzle",
+      "count": 2,
+      "instances": [
+        {
+          "id": "cc44d87534",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\puzzle\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "a2f40c5c684b0d0f09d0b1db1cfcb04ca7e4e6e8bca946022f8318f5fbc44b4c"
+        },
+        {
+          "id": "57b188a26e",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\puzzle\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "a2f40c5c684b0d0f09d0b1db1cfcb04ca7e4e6e8bca946022f8318f5fbc44b4c"
+        }
+      ]
+    },
+    {
+      "name": "pygame-core",
+      "count": 2,
+      "instances": [
+        {
+          "id": "982c441e84",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\pygame-core\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "e92c9a139faff1d2fe7e62f3a470f87be43e5942b0a89ac041dd1856402068d9"
+        },
+        {
+          "id": "9bfca21aa6",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\other-engines\\pygame-core\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "e92c9a139faff1d2fe7e62f3a470f87be43e5942b0a89ac041dd1856402068d9"
+        }
+      ]
+    },
+    {
+      "name": "python-code-skeletonizer",
+      "count": 2,
+      "instances": [
+        {
+          "id": "a0cf5215ab",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\python-code-skeletonizer\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "4ec2607c6568f28b22740f473e71955b1df1472be84f2918ce14b0d75aaf085c"
+        },
+        {
+          "id": "96d5f7876d",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\python-code-skeletonizer\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "4ec2607c6568f28b22740f473e71955b1df1472be84f2918ce14b0d75aaf085c"
+        }
+      ]
+    },
+    {
+      "name": "roguelike",
+      "count": 2,
+      "instances": [
+        {
+          "id": "14c5855a11",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\roguelike\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "05dc641b7360ade29331f87262aedf2e1d9449812c95cad24decee652450b6ca"
+        },
+        {
+          "id": "e893500599",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\roguelike\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "05dc641b7360ade29331f87262aedf2e1d9449812c95cad24decee652450b6ca"
+        }
+      ]
+    },
+    {
+      "name": "router",
+      "count": 2,
+      "instances": [
+        {
+          "id": "8e5b34e6e4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\router\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "548b9c354f4bc152607b4f00f575f40786d28be92d1f4354c8802437f958488e"
+        },
+        {
+          "id": "448f9bc43f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\router\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "548b9c354f4bc152607b4f00f575f40786d28be92d1f4354c8802437f958488e"
+        }
+      ]
+    },
+    {
+      "name": "rpg",
+      "count": 2,
+      "instances": [
+        {
+          "id": "16e74af05c",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\rpg\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "f33ea8698049050be589c50c532e06adeab52fbeacff81eafb909f230a38745b"
+        },
+        {
+          "id": "220d7bd921",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\rpg\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "f33ea8698049050be589c50c532e06adeab52fbeacff81eafb909f230a38745b"
+        }
+      ]
+    },
+    {
+      "name": "save-systems",
+      "count": 2,
+      "instances": [
+        {
+          "id": "1a4bddd43a",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\save-systems\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "bf9184965b3eb4bc0b20be00681d08ef1af63fd85ca5b7afb7453ca09e80e490"
+        },
+        {
+          "id": "24d49dc818",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\save-systems\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "bf9184965b3eb4bc0b20be00681d08ef1af63fd85ca5b7afb7453ca09e80e490"
+        }
+      ]
+    },
+    {
+      "name": "shader-programming",
+      "count": 2,
+      "instances": [
+        {
+          "id": "e55f7ef3e3",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\shader-programming\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "e89558b15691c891e12cece81d4bafd4d61159bd4de2ae580ac109aecadca7ad"
+        },
+        {
+          "id": "175aa05dfd",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\disciplines\\shader-programming\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "e89558b15691c891e12cece81d4bafd4d61159bd4de2ae580ac109aecadca7ad"
+        }
+      ]
+    },
+    {
+      "name": "steam-publish",
+      "count": 2,
+      "instances": [
+        {
+          "id": "b5b4a1a607",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\steam-publish\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "39ae5448175ec1a65af60874872a7b120b6c906ca3c146588c2a1aaf13948771"
+        },
+        {
+          "id": "b1f326aa17",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\workflows\\steam-publish\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "39ae5448175ec1a65af60874872a7b120b6c906ca3c146588c2a1aaf13948771"
+        }
+      ]
+    },
+    {
+      "name": "survival-crafting",
+      "count": 2,
+      "instances": [
+        {
+          "id": "cf0a4a9961",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\survival-crafting\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "cbf1981c1a446ba7e3edbc18b3ff92e11d872386f889f9316bab0deb240df5bb"
+        },
+        {
+          "id": "4e660af008",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\survival-crafting\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "cbf1981c1a446ba7e3edbc18b3ff92e11d872386f889f9316bab0deb240df5bb"
+        }
+      ]
+    },
+    {
+      "name": "threejs-gltf-loading",
+      "count": 2,
+      "instances": [
+        {
+          "id": "2580b028ad",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\threejs-gltf-loading\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "d37a50198d95ee3d4e50b04014e86222df5ba177daec20b1e7ed01890cead2e2"
+        },
+        {
+          "id": "bcf8b31b20",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\threejs-gltf-loading\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "d37a50198d95ee3d4e50b04014e86222df5ba177daec20b1e7ed01890cead2e2"
+        }
+      ]
+    },
+    {
+      "name": "threejs-materials-lighting",
+      "count": 2,
+      "instances": [
+        {
+          "id": "3d51be4377",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\threejs-materials-lighting\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "5377a67ebd8058574ca1fe7bc82ced3c5b98380f3d860ef146b0727a3b6ad2af"
+        },
+        {
+          "id": "74a2bc7afe",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\threejs-materials-lighting\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "5377a67ebd8058574ca1fe7bc82ced3c5b98380f3d860ef146b0727a3b6ad2af"
+        }
+      ]
+    },
+    {
+      "name": "threejs-scene-setup",
+      "count": 2,
+      "instances": [
+        {
+          "id": "6c0c2bec23",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\threejs-scene-setup\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "8b7ef10fd2daa356182ac74f8c51cfb166345750df919c4195c36cfa00e1c80b"
+        },
+        {
+          "id": "a5a941f640",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\web-engines\\threejs-scene-setup\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "8b7ef10fd2daa356182ac74f8c51cfb166345750df919c4195c36cfa00e1c80b"
+        }
+      ]
+    },
+    {
+      "name": "token-usage-router",
+      "count": 2,
+      "instances": [
+        {
+          "id": "aa8aa487bd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\token-usage-router\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "fc55dc3a96576953a7d283d7f232b8d65b280fd3e3b103c78ef53c3eaef8bedc"
+        },
+        {
+          "id": "b1754f8307",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\JackOfAllTrAIdes\\skills\\token-usage-router\\SKILL.md",
+          "source": "JackOfAllTrAIdes Repo",
+          "sha256": "fc55dc3a96576953a7d283d7f232b8d65b280fd3e3b103c78ef53c3eaef8bedc"
+        }
+      ]
+    },
+    {
+      "name": "tower-defense",
+      "count": 2,
+      "instances": [
+        {
+          "id": "b7c97e05b6",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\tower-defense\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "27f35ea5defd81bbb81d61984b4394a11c2c6f7ce141ca8e70b7f55e97485e25"
+        },
+        {
+          "id": "f1d3eda622",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\tower-defense\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "27f35ea5defd81bbb81d61984b4394a11c2c6f7ce141ca8e70b7f55e97485e25"
+        }
+      ]
+    },
+    {
+      "name": "visual-novel",
+      "count": 2,
+      "instances": [
+        {
+          "id": "9db387753e",
+          "path": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\visual-novel\\SKILL.md",
+          "source": "Global Customizations (.gemini/config/skills)",
+          "sha256": "081f25d30ca70219e54496a4b19f3d8568488e3e32d51af6b743ca4d67a6cf03"
+        },
+        {
+          "id": "5836eb108f",
+          "path": "C:\\Users\\DaniBani\\Documents\\VisualStudioCodeProjects\\awesome-gamedev-agent-skills\\skills\\genres\\visual-novel\\SKILL.md",
+          "source": "Awesome GameDev Repo",
+          "sha256": "081f25d30ca70219e54496a4b19f3d8568488e3e32d51af6b743ca4d67a6cf03"
+        }
+      ]
+    },
+    {
+      "name": "agy-customizations",
+      "count": 2,
+      "instances": [
+        {
+          "id": "d9b2c8df79",
+          "path": "C:\\Users\\DaniBani\\.gemini\\antigravity\\builtin\\skills\\agy-customizations\\SKILL.md",
+          "source": "Gemini / Antigravity Built-in",
+          "sha256": "79c8885e76ce449e82016b37b53dfcc3ff5afefd90a23ea83b24148f41f33fa1"
+        },
+        {
+          "id": "d12e1e18d4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\antigravity-ide\\builtin\\skills\\agy-customizations\\SKILL.md",
+          "source": "Gemini / Antigravity Built-in",
+          "sha256": "4f8b0eab3c1420a73eddc48d4041b62178b8ba552a7d6b00d2412deab3a39315"
+        }
+      ]
+    },
+    {
+      "name": "antigravity-guide",
+      "count": 2,
+      "instances": [
+        {
+          "id": "761396ea85",
+          "path": "C:\\Users\\DaniBani\\.gemini\\antigravity\\builtin\\skills\\antigravity_guide\\SKILL.md",
+          "source": "Gemini / Antigravity Built-in",
+          "sha256": "9fc5f6570e91dd792dab582d4e1cc7e7bd25b303c1583c6f118a07ec6bb3dd1d"
+        },
+        {
+          "id": "40835676b4",
+          "path": "C:\\Users\\DaniBani\\.gemini\\antigravity-ide\\builtin\\skills\\antigravity_guide\\SKILL.md",
+          "source": "Gemini / Antigravity Built-in",
+          "sha256": "0999fc13d3091e8c2833019cc9ac9c2cadbe0df356bdc80700cd7da49915e6e7"
+        }
+      ]
+    },
+    {
+      "name": "permissioned-github",
+      "count": 2,
+      "instances": [
+        {
+          "id": "16bb9e5bb3",
+          "path": "C:\\Users\\DaniBani\\.gemini\\antigravity\\builtin\\skills\\permissioned-github\\SKILL.md",
+          "source": "Gemini / Antigravity Built-in",
+          "sha256": "5779716732c7a75681aa980c76355ae8b675f881e742b74f93e4be14b4abfc9d"
+        },
+        {
+          "id": "db7d7a98dd",
+          "path": "C:\\Users\\DaniBani\\.gemini\\antigravity-ide\\builtin\\skills\\permissioned-github\\SKILL.md",
+          "source": "Gemini / Antigravity Built-in",
+          "sha256": "25b1849d73ab81dce8495a7080169cf3f6686abb74797cc8512f6b837a1ff727"
+        }
+      ]
+    },
+    {
+      "name": "dotnet-webapi",
+      "count": 2,
+      "instances": [
+        {
+          "id": "e58a70c3b0",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.2400e0ac-e30e-4863-b206-f8049d70ba95\\src\\copilot\\skills\\dotnet-aspnetcore\\dotnet-webapi\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "70e10d74aa367ee63060b64edc397c5998c03da0fbdaf120f5aa8c94d373b77d"
+        },
+        {
+          "id": "ad522b0723",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-dotnettools.csdevkit-3.40.210-win32-x64\\src\\copilot\\skills\\dotnet-aspnetcore\\dotnet-webapi\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "70e10d74aa367ee63060b64edc397c5998c03da0fbdaf120f5aa8c94d373b77d"
+        }
+      ]
+    },
+    {
+      "name": "analyzing-dotnet-performance",
+      "count": 2,
+      "instances": [
+        {
+          "id": "d985298c49",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.2400e0ac-e30e-4863-b206-f8049d70ba95\\src\\copilot\\skills\\dotnet-diag\\analyzing-dotnet-performance\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "9980c08c82a1f0a961892472ea773d6b5342b080e46d92e9db3c109814e1afad"
+        },
+        {
+          "id": "ebdb76c1bf",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-dotnettools.csdevkit-3.40.210-win32-x64\\src\\copilot\\skills\\dotnet-diag\\analyzing-dotnet-performance\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "9980c08c82a1f0a961892472ea773d6b5342b080e46d92e9db3c109814e1afad"
+        }
+      ]
+    },
+    {
+      "name": "run-tests",
+      "count": 2,
+      "instances": [
+        {
+          "id": "1ea1ee2552",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.2400e0ac-e30e-4863-b206-f8049d70ba95\\src\\copilot\\skills\\dotnet-test\\run-tests\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "079570c1f0264110547764b31b30d95d50daf1251350e53c7e050c0e4b3fdcc9"
+        },
+        {
+          "id": "c854900d31",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-dotnettools.csdevkit-3.40.210-win32-x64\\src\\copilot\\skills\\dotnet-test\\run-tests\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "079570c1f0264110547764b31b30d95d50daf1251350e53c7e050c0e4b3fdcc9"
+        }
+      ]
+    },
+    {
+      "name": "add-python-version-support",
+      "count": 2,
+      "instances": [
+        {
+          "id": "bd6a7355fc",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\add-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "bb1fd6756579eaf44ca9dc610666edaea778c8bbc30c62b10b1d22e596f46872"
+        },
+        {
+          "id": "176ff901c5",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\add-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "bb1fd6756579eaf44ca9dc610666edaea778c8bbc30c62b10b1d22e596f46872"
+        }
+      ]
+    },
+    {
+      "name": "drop-python-version-support",
+      "count": 2,
+      "instances": [
+        {
+          "id": "938a32c323",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\drop-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "351382db1fefca482a2ac16ca7abcba5922fda191adfe16b2796b61aaa7c911a"
+        },
+        {
+          "id": "7e38a07f41",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\drop-python-version-support\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "351382db1fefca482a2ac16ca7abcba5922fda191adfe16b2796b61aaa7c911a"
+        }
+      ]
+    },
+    {
+      "name": "pylance-docs",
+      "count": 2,
+      "instances": [
+        {
+          "id": "a015e43a1f",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\pylance-docs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "c5ed79c6eeb5edd50d07a05e30fa23423e30936293e20f24eb6e5f841531ab4a"
+        },
+        {
+          "id": "1ebc9b012a",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\pylance-docs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "c5ed79c6eeb5edd50d07a05e30fa23423e30936293e20f24eb6e5f841531ab4a"
+        }
+      ]
+    },
+    {
+      "name": "pylance-python-profiling",
+      "count": 2,
+      "instances": [
+        {
+          "id": "97b189b480",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\pylance-python-profiling\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "94b2e48cff08098392547a3a3c3a1cb746cfd6ad314607485944f2a819f20a79"
+        },
+        {
+          "id": "8504ecd418",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\pylance-python-profiling\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "94b2e48cff08098392547a3a3c3a1cb746cfd6ad314607485944f2a819f20a79"
+        }
+      ]
+    },
+    {
+      "name": "pylance-refactoring",
+      "count": 2,
+      "instances": [
+        {
+          "id": "f88e91cf79",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\pylance-refactoring\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "059ab3aedf8edd1664bcf5e9b83ed9949dee56d2d91d46a42f29e7b3e4475af1"
+        },
+        {
+          "id": "71144d8f39",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\pylance-refactoring\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "059ab3aedf8edd1664bcf5e9b83ed9949dee56d2d91d46a42f29e7b3e4475af1"
+        }
+      ]
+    },
+    {
+      "name": "python-add-type-annotations",
+      "count": 2,
+      "instances": [
+        {
+          "id": "96d4146785",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-add-type-annotations\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "4826e5790573d59dc1b6ebec72dbdac302dbbff9a8ef26cb6dbffe9831f9e438"
+        },
+        {
+          "id": "11e947888d",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-add-type-annotations\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "4826e5790573d59dc1b6ebec72dbdac302dbbff9a8ef26cb6dbffe9831f9e438"
+        }
+      ]
+    },
+    {
+      "name": "python-fact-grounded-coding",
+      "count": 2,
+      "instances": [
+        {
+          "id": "64d61bce73",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-fact-grounded-coding\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "fa3adb23d5867f06d5436e89cdbcc558d1c35b6e077bab23ed93c07a83d3ba9c"
+        },
+        {
+          "id": "a96e065abc",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-fact-grounded-coding\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "fa3adb23d5867f06d5436e89cdbcc558d1c35b6e077bab23ed93c07a83d3ba9c"
+        }
+      ]
+    },
+    {
+      "name": "python-type-inference",
+      "count": 2,
+      "instances": [
+        {
+          "id": "3f13342740",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-type-inference\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "4e87bb62af3d48e1092be433d4a197e0e1a03c59453130618670fa05b9040847"
+        },
+        {
+          "id": "b63e865e69",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-type-inference\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "4e87bb62af3d48e1092be433d4a197e0e1a03c59453130618670fa05b9040847"
+        }
+      ]
+    },
+    {
+      "name": "python-write-stubs",
+      "count": 2,
+      "instances": [
+        {
+          "id": "e9c2794e92",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\.c269ab62-3317-46f6-9933-132aa75aad45\\skills\\python-write-stubs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "7e28fe1dd1ee0df5275734f085b29b19f32f6399007b7cb01b09b51280356d96"
+        },
+        {
+          "id": "dc0828eb28",
+          "path": "C:\\Users\\DaniBani\\.vscode\\extensions\\ms-python.vscode-pylance-2026.4.1\\skills\\python-write-stubs\\SKILL.md",
+          "source": "VS Code Extensions (Pylance)",
+          "sha256": "7e28fe1dd1ee0df5275734f085b29b19f32f6399007b7cb01b09b51280356d96"
+        }
+      ]
+    }
+  ],
+  "source_distribution": {
+    "agent-skills (Plugin)": 25,
+    "chrome-devtools (Plugin)": 5,
+    "data-agent-kit (Plugin)": 26,
+    "google-antigravity-sdk (Plugin)": 1,
+    "modern-web-guidance (Plugin)": 2,
+    "ponytail (Plugin)": 12,
+    "qt-development-skills (Plugin)": 12,
+    "Global Customizations (.gemini/config/skills)": 65,
+    "Gemini / Antigravity Built-in": 12,
+    "Ollama Skills": 1,
+    "VS Code Extensions (Pylance)": 24,
+    "Awesome GameDev Repo": 75,
+    "JackOfAllTrAIdes Repo": 8
+  },
+  "domain_distribution": {
+    "Frontend, Web & UI/UX": 35,
+    "Software Architecture, Quality & Review": 37,
+    "Context & Token Optimization": 19,
+    "Game Development & Graphics": 114,
+    "General & Workflow": 12,
+    "Data Engineering & Cloud (GCP/SQL)": 29,
+    "Qt & C++ Development": 22
+  },
+  "similar_pairs": [
+    {
+      "skill1": "accidental-data-loss-prevention",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\accidental-data-loss-prevention\\SKILL.md",
+      "skill2": "building-data-apps",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\building-data-apps\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "accidental-data-loss-prevention",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\accidental-data-loss-prevention\\SKILL.md",
+      "skill2": "discovering-gcp-data-assets",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\discovering-gcp-data-assets\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "accidental-data-loss-prevention",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\accidental-data-loss-prevention\\SKILL.md",
+      "skill2": "enforcing-resource-attribution",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\enforcing-resource-attribution\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "accidental-data-loss-prevention",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\accidental-data-loss-prevention\\SKILL.md",
+      "skill2": "managing-python-dependencies",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\managing-python-dependencies\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "accidental-data-loss-prevention",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\accidental-data-loss-prevention\\SKILL.md",
+      "skill2": "ml-best-practices",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\ml-best-practices\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "accidental-data-loss-prevention",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\accidental-data-loss-prevention\\SKILL.md",
+      "skill2": "notebook-guidance",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\notebook-guidance\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "accidental-data-loss-prevention",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\accidental-data-loss-prevention\\SKILL.md",
+      "skill2": "modern-web-guidance",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\modern-web-guidance-plugin\\skills\\modern-web-guidance\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigquery-bigframes",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-bigframes\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigquery-graph-author",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-graph-author\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigquery-graph-query",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-graph-query\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigquery-sql",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-sql\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigquery-bigframes",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_bigframes\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigquery-graph",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_graph\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigquery-sql",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery_sql\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "bigtable-basics",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigtable-basics\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "federate-lakehouse-catalog",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\federate-lakehouse-catalog\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "resolving-mcp-region-configs",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\resolving-mcp-region-configs\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "schema-mapping",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\schema-mapping\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "chrome-extensions",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\modern-web-guidance-plugin\\skills\\chrome-extensions\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "ponytail",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "ponytail-audit",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-audit\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "ponytail-debt",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-debt\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "ponytail-gain",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-gain\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "ponytail-help",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-help\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "ponytail-review",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\ponytail\\skills\\ponytail-review\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-cmake-project",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cmake-project\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-cpp-docs",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cpp-docs\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-cpp-review",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-cpp-review\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-figma-component-generation",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-figma-component-generation\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-figma-token-extraction",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-figma-token-extraction\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-qml",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-qml-docs",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-docs\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-qml-profiler",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-profiler\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-qml-review",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-review\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-qml-test",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-test\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-qml-test-run",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-qml-test-run\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "qt-ui-design",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\qt-development-skills\\skills\\qt-ui-design\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "ai-behavior-trees-utility-ai",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\ai-behavior-trees-utility-ai\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "audio-design",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\audio-design\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "camera-systems",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\camera-systems\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "card-game",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\card-game\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "codebase-architecture-reporter",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\codebase-architecture-reporter\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "data-schema-reducer",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\data-schema-reducer\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "dependency-context-collector",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\dependency-context-collector\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "dialogue-systems",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\dialogue-systems\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "document-to-markdown",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\document-to-markdown\\SKILL.md",
+      "similarity": 1.0
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "fps-shooter",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\fps-shooter\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "game-ai",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-ai\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "game-feel",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-feel\\SKILL.md",
+      "similarity": 0.667
+    },
+    {
+      "skill1": "bigquery-ai-ml",
+      "path1": "C:\\Users\\DaniBani\\.gemini\\config\\plugins\\data-agent-kit-plugin\\skills\\bigquery-ai-ml\\SKILL.md",
+      "skill2": "game-jam",
+      "path2": "C:\\Users\\DaniBani\\.gemini\\config\\skills\\game-jam\\SKILL.md",
+      "similarity": 0.667
+    }
+  ]
+}
