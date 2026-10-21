@@ -1,6 +1,7 @@
 # Skill Consolidation Framework: Von 268 zersplitterten Skills zu 7 produktiven Master-Skills
 
 ## Problem Statement
+
 *Wie können wir die 268 verstreuten, redundanten Skills auf dem PC so untersuchen, vergleichen und bereinigen, dass redundanter Ballast (72 exakte Duplikate, 114 Gaming-Skills) eliminiert wird und wenige standardisierte, hocheffiziente Master-Skills entstehen, die das gesamte Team produktiv nutzen kann?*
 
 ---
@@ -8,13 +9,14 @@
 ## Empfohlene Richtung (Recommended Direction)
 
 Die Untersuchung aller Skills auf dem System ergab eine extreme Zersplitterung über 13 Quellpfade:
+
 - **268 Skills insgesamt**
 - **72 exakte Dateikopien** (identischer SHA256-Inhalt durch redundante Plugin-Kopien, z.B. in `.openclaw` und Doppelkopien in `.gemini/config/skills/`)
 - **114 Spieleentwicklungs-Skills** (Phaser, PyGame, Pixi, Platformer, Audio-Synthese etc.), die für Unternehmens- und Arbeitsplatzsoftware Ballast darstellen und das Kontextfenster von KI-Agenten überlasten
 - **88 wertvolle Kernskills** für Softwarearchitektur, Frontend, Code-Qualität, TDD, Cloud-Daten und Token-Effizienz
 - **22 spezialisierte Qt/C++ Skills**
 
-### Die 3-Phasen-Transformationsstrategie:
+### Die 3-Phasen-Transformationsstrategie
 
 1. **Phase 1: Physische Entschlackung & Duplikat-Bereinigung**
    - Löschen redundanter Unterordner (z.B. `.openclaw/skills/` innerhalb des Ponytail-Plugins).
