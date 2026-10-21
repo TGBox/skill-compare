@@ -47,14 +47,14 @@ Die interaktive Web-App **SkillLens Pro** ist sofort einsatzbereit:
 
 ### 1. Die 6 einsatzbereiten Master-Skills (Aktiv aufrufbar)
 
-Die kombinierten Skills liegen fertig formuliert und einsatzbereit im Ordner [`consolidated-skills/`](file:///c:/Users/DaniBani/Documents/VisualStudioCodeProjects/skill-compare/consolidated-skills):
+Die kombinierten Skills liegen fertig formuliert und einsatzbereit im Ordner [`consolidated-skills/`](file:///c:/Users/DaniBani/Documents/VisualStudioCodeProjects/skill-compare/consolidated-skills), als Team-Vorlage in [`.agents/skills/`](file:///c:/Users/DaniBani/Documents/VisualStudioCodeProjects/skill-compare/.agents/skills) sowie global in `C:\Users\DaniBani\.gemini\config\skills`:
 
-1. **`code-quality-and-review`**: Multi-Achsen-Review (5 Dimensionen), Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Security und Schutz vor Datenverlust.
-2. **`software-architecture-and-specs`**: Spec-Driven Development, API-Schnittstellenverträge, Architecture Decision Records (ADRs) und Datenbankschemamigrationen.
-3. **`modern-web-and-ui`**: Barrierefreies HTML5/CSS, Dark Mode, Responsive Design, Chrome DevTools MCP und Core Web Vitals (LCP).
-4. **`devops-testing-and-git`**: Test-Driven Development (TDD), CI/CD-Pipelines, atomare Git-Commits und Observability.
-5. **`enterprise-data-and-sql`**: High-Performance SQL-Tuning, dbt/Dataform ELT-Pipelines, Schemamapping und Cloud Data Governance.
-6. **`agent-workflow-and-ideation`**: Strukturierte Ideenfindung, Anforderungs-Interviews und KI-Agenten-Metasteuerung.
+1. **`review`** (Trigger: `review`, `check`, `debug` / `prüfe`, `untersuche`): Multi-Achsen-Review (5 Dimensionen), Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Security und Schutz vor Datenverlust.
+2. **`spec`** (Trigger: `spec`, `architect`, `design` / `entwerfe`, `spezifikation`, `plane`): Spec-Driven Development, API-Schnittstellenverträge, Architecture Decision Records (ADRs) und Datenbankschemamigrationen.
+3. **`ui`** (Trigger: `ui`, `frontend`, `web`, `css` / `oberfläche`, `gui`, `barrierefrei`): Barrierefreies HTML5/CSS, Dark Mode, Responsive Design, Chrome DevTools MCP und Core Web Vitals (LCP).
+4. **`ship`** (Trigger: `ship`, `test`, `deploy`, `git` / `veröffentliche`, `teste`, `pipeline`): Test-Driven Development (TDD), CI/CD-Pipelines, atomare Git-Commits und Observability.
+5. **`data`** (Trigger: `data`, `sql`, `bigquery`, `dbt` / `daten`, `datenbank`, `abfrage`): High-Performance SQL-Tuning, dbt/Dataform ELT-Pipelines, Schemamapping und Cloud Data Governance.
+6. **`ideate`** (Trigger: `ideate`, `refine`, `interview` / `idee`, `konzept`, `hinterfrage`): Strukturierte Ideenfindung, Anforderungs-Interviews und KI-Agenten-Metasteuerung.
 
 ### 2. Die automatische System-Schicht (Zero-Config, im Hintergrund)
 

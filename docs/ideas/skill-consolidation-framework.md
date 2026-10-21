@@ -28,17 +28,17 @@ Die Untersuchung aller Skills auf dem System ergab eine extreme Zersplitterung �
    - Verhindert, dass der KI-Agent bei normalen Software-Aufgaben irrtümlich Spielphysik (z.B. Coyote-Time oder Screen-Shake) vorschlägt.
 
 3. **Phase 3: Etablierung des 6+1 Modells für das Team**
-   Anstatt 88 Mikroskills einzeln zu verwalten, stellen wir dem Team **6 fokussierte Master-Skills** plus **1 automatische Systemschicht** bereit:
+   Anstatt 88 Mikroskills einzeln zu verwalten, stellen wir dem Team **6 ultra-prägnante Master-Skills** (CLI-Verben, max. 1 Wort) plus **1 automatische Systemschicht** bereit:
 
-   **Die 6 aktiven Master-Skills (aufrufbar & steuernd):**
-   - `code-quality-and-review`: Umfassender 5-Achsen-Review, Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Sicherheit & Accidental Data Loss Prevention.
-   - `software-architecture-and-specs`: Spec-Driven Development, API-Verträge, ADRs, Migrationspfade.
-   - `modern-web-and-ui`: Barrierefreies HTML5/CSS, Dark Mode, UI/UX-Intelligenz, Chrome DevTools MCP & LCP-Optimierung.
-   - `devops-testing-and-git`: Test-Driven Development (TDD), CI/CD-Pipelines, atomare Git-Commits, Observability.
-   - `enterprise-data-and-sql`: High-Performance SQL, dbt/Dataform Pipelines, Schemamapping, Cloud Data Governance.
-   - `agent-workflow-and-ideation`: Strukturierte Ideenverfeinerung, Nutzer-Interviews, Prompt-Führung.
+   **Die 6 aktiven Master-Skills (aufrufbar mit englischen & deutschen Triggern):**
+   - **`review`** (Trigger: `review`, `check`, `debug` / `prüfe`, `untersuche`, `fehler finden`): 5-Achsen-Review, Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Sicherheit & Schutz vor Datenverlust.
+   - **`spec`** (Trigger: `spec`, `architect`, `design` / `entwerfe`, `spezifikation`, `architektur`, `plane`): Spec-Driven Development, API-Schnittstellenverträge, ADRs, Migrationspfade.
+   - **`ui`** (Trigger: `ui`, `frontend`, `web`, `css` / `oberfläche`, `gui`, `frontend-bau`, `barrierefrei`): Barrierefreies HTML5/CSS, Dark Mode, UI/UX-Intelligenz, Chrome DevTools MCP & LCP-Optimierung.
+   - **`ship`** (Trigger: `ship`, `test`, `deploy`, `git` / `veröffentliche`, `teste`, `liefere`, `pipeline`): Test-Driven Development (TDD), CI/CD-Pipelines, atomare Git-Commits, Observability.
+   - **`data`** (Trigger: `data`, `sql`, `bigquery`, `dbt` / `daten`, `datenbank`, `abfrage`, `datenbereinigung`): High-Performance SQL, dbt/Dataform Pipelines, Schemamapping, Cloud Data Governance.
+   - **`ideate`** (Trigger: `ideate`, `refine`, `interview` / `idee`, `konzept`, `anforderung`, `hinterfrage`): Strukturierte 3-Phasen-Ideenfindung, Nutzer-Interviews, Prompt-Führung (kollisionsfrei mit `/plan`).
 
-   **Die 1 automatische System-Schicht (Zero-Config, im Hintergrund):**
+   **Die 1 automatische System-Schicht (Zero-Config, dauerhaft im Hintergrund):**
    - `rules/context-and-token-efficiency.md`: Permanente Verhaltensregeln für den Agenten (Slice-Viewing, AST vor Implementierungsdetails, Log-Sanitisierung).
    - `hooks/hooks.json`: Automatischer `SessionStart`-Hook, der beim Starten eines Projekts/einer Session einmalig die Codebase-Architektur erfasst.
 

@@ -549,6 +549,7 @@ function initBundlesView() {
                     <div>
                         <div class="bundle-title">${escapeHtml(bundle.title)}</div>
                         <div class="bundle-tagline">${escapeHtml(bundle.tagline)}</div>
+                        <div style="font-size:0.75rem; color:var(--accent-cyan); font-family:var(--font-mono); margin-top:0.25rem;">Trigger: ${escapeHtml(bundle.triggers || '')}</div>
                     </div>
                 </div>
 
