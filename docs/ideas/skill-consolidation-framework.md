@@ -29,7 +29,7 @@ Die Untersuchung aller Skills auf dem System ergab eine extreme Zersplitterung �
 
 3. **Phase 3: Etablierung des 6+1 Modells für das Team**
    Anstatt 88 Mikroskills einzeln zu verwalten, stellen wir dem Team **6 fokussierte Master-Skills** plus **1 automatische Systemschicht** bereit:
-   
+
    **Die 6 aktiven Master-Skills (aufrufbar & steuernd):**
    - `code-quality-and-review`: Umfassender 5-Achsen-Review, Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Sicherheit & Accidental Data Loss Prevention.
    - `software-architecture-and-specs`: Spec-Driven Development, API-Verträge, ADRs, Migrationspfade.

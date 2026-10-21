@@ -46,6 +46,7 @@ Die interaktive Web-App **SkillLens Pro** ist sofort einsatzbereit:
 ## 📦 Das 6+1 Modell: 6 Master-Skills + 1 Automatik-Schicht
 
 ### 1. Die 6 einsatzbereiten Master-Skills (Aktiv aufrufbar)
+
 Die kombinierten Skills liegen fertig formuliert und einsatzbereit im Ordner [`consolidated-skills/`](file:///c:/Users/DaniBani/Documents/VisualStudioCodeProjects/skill-compare/consolidated-skills):
 
 1. **`code-quality-and-review`**: Multi-Achsen-Review (5 Dimensionen), Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Security und Schutz vor Datenverlust.
@@ -56,6 +57,7 @@ Die kombinierten Skills liegen fertig formuliert und einsatzbereit im Ordner [`c
 6. **`agent-workflow-and-ideation`**: Strukturierte Ideenfindung, Anforderungs-Interviews und KI-Agenten-Metasteuerung.
 
 ### 2. Die automatische System-Schicht (Zero-Config, im Hintergrund)
+
 - **`rules/context-and-token-efficiency.md`**: Permanente Verhaltensregel für den Agenten (erzwingt Slice-Viewing, AST vor Implementierungsdetails, Log-Sanitisierung).
 - **`hooks/hooks.json`**: Automatischer `SessionStart`-Hook zur Erfassung der Codebase-Architektur beim Projektstart.
 - **Vorteil:** Spart bis zu 85% Token völlig automatisch, ohne dass ein Mitarbeiter daran denken muss, einen Skill aufzurufen!
