@@ -1,0 +1,14 @@
+{
+  "description": "Automatische Antigravity Hooks für Token- und Kontext-Optimierung",
+  "hooks": {
+    "SessionStart": [
+      {
+        "name": "auto-codebase-architecture-map",
+        "description": "Erfasst automatisch beim Start jeder Session die Modul- und Ordnerarchitektur des Repositories.",
+        "command": "python scripts/scan_skills.py --summary-only",
+        "timeout_seconds": 15,
+        "run_on": ["session_init", "workspace_open"]
+      }
+    ]
+  }
+}

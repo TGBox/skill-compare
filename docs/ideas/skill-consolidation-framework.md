@@ -27,23 +27,28 @@ Die Untersuchung aller Skills auf dem System ergab eine extreme Zersplitterung �
    - Verschieben der 114 Spieleentwicklungs-Skills in ein optionales, separates Paket (`plugins/gaming-suite`), anstatt sie im globalen `.gemini/config/skills/` Verzeichnis zu belassen.
    - Verhindert, dass der KI-Agent bei normalen Software-Aufgaben irrtümlich Spielphysik (z.B. Coyote-Time oder Screen-Shake) vorschlägt.
 
-3. **Phase 3: Etablierung der 7 Master-Skills für das Team**
-   Anstatt 88 Mikroskills einzeln zu verwalten, stellen wir dem Team 7 klar abgegrenzte, umfassende Master-Skills zur Verfügung:
+3. **Phase 3: Etablierung des 6+1 Modells für das Team**
+   Anstatt 88 Mikroskills einzeln zu verwalten, stellen wir dem Team **6 fokussierte Master-Skills** plus **1 automatische Systemschicht** bereit:
+   
+   **Die 6 aktiven Master-Skills (aufrufbar & steuernd):**
    - `code-quality-and-review`: Umfassender 5-Achsen-Review, Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Sicherheit & Accidental Data Loss Prevention.
    - `software-architecture-and-specs`: Spec-Driven Development, API-Verträge, ADRs, Migrationspfade.
    - `modern-web-and-ui`: Barrierefreies HTML5/CSS, Dark Mode, UI/UX-Intelligenz, Chrome DevTools MCP & LCP-Optimierung.
-   - `context-and-token-efficiency`: AST-Skelettierer, Log-Kompressor, Diff-Packager, Schema-Reducer (bis zu 80% Tokenersparnis).
    - `devops-testing-and-git`: Test-Driven Development (TDD), CI/CD-Pipelines, atomare Git-Commits, Observability.
    - `enterprise-data-and-sql`: High-Performance SQL, dbt/Dataform Pipelines, Schemamapping, Cloud Data Governance.
    - `agent-workflow-and-ideation`: Strukturierte Ideenverfeinerung, Nutzer-Interviews, Prompt-Führung.
+
+   **Die 1 automatische System-Schicht (Zero-Config, im Hintergrund):**
+   - `rules/context-and-token-efficiency.md`: Permanente Verhaltensregeln für den Agenten (Slice-Viewing, AST vor Implementierungsdetails, Log-Sanitisierung).
+   - `hooks/hooks.json`: Automatischer `SessionStart`-Hook, der beim Starten eines Projekts/einer Session einmalig die Codebase-Architektur erfasst.
 
 ---
 
 ## Zu validierende Kernannahmen (Key Assumptions)
 
-- [ ] **Annahme 1 (Kontext-Gewinn):** Das Entfernen der 114 Gaming-Skills und Reduzieren auf 7 Master-Skills senkt die Latenz und Token-Kosten pro Anfrage messbar und verbessert die Präzision des Agenten. *(Test: Vergleich der System-Prompt-Größe und Tool-Auswahl-Genauigkeit)*
-- [ ] **Annahme 2 (Team-Akzeptanz):** Mitarbeiter bevorzugen 7 verständliche, umfassende Workflows gegenüber der Suche in über 80 einzelnen Mikroskills. *(Test: Testphase der 7 Master-Skills im Team für 2 Wochen)*
-- [ ] **Annahme 3 (Vollständigkeit):** Die 7 Master-Skills decken alle typischen Aufgaben des Entwicklungs- und Datenalltags ab, ohne dass spezialisierte Workflows fehlen. *(Test: Cross-Check gegen vergangene Projekt-Tasks)*
+- [ ] **Annahme 1 (Kontext-Gewinn):** Das Entfernen der 114 Gaming-Skills und Reduzieren auf 6 Master-Skills senkt die Latenz und Token-Kosten pro Anfrage messbar und verbessert die Präzision des Agenten. *(Test: Vergleich der System-Prompt-Größe und Tool-Auswahl-Genauigkeit)*
+- [ ] **Annahme 2 (Team-Akzeptanz):** Mitarbeiter bevorzugen 6 verständliche, umfassende Workflows gegenüber der Suche in über 80 einzelnen Mikroskills. *(Test: Testphase der 6 Master-Skills im Team für 2 Wochen)*
+- [ ] **Annahme 3 (Automatisierungseffekt):** Durch die Auslagerung von Token-Effizienz in feste Regeln und Hooks spart das Team automatisch bis zu 80% Token, ohne dass jemand manuell an den Aufruf denken muss. *(Test: Vergleich von Kontext-Größen mit und ohne Regel)*
 
 ---
 
@@ -54,8 +59,10 @@ Die Untersuchung aller Skills auf dem System ergab eine extreme Zersplitterung �
   - Side-by-Side Comparator mit synchronisierter Ansicht von 2-3 Skills.
   - Duplikat-Detektor mit 1-Klick-PowerShell-Bereinigungsskript.
   - Vollbild- und Fenstermodus (User Rule 4).
-- **Die 7 einsatzbereiten Master-Skills:**
+- **Die 6 einsatzbereiten Master-Skills:**
   - Fertig ausformulierte `SKILL.md`-Dateien im Verzeichnis `consolidated-skills/`.
+- **Die automatische Regel- und Hook-Schicht:**
+  - `rules/context-and-token-efficiency.md` & `hooks/hooks.json`.
 
 ---
 

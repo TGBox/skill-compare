@@ -92,21 +92,22 @@ bundles = [
     },
     {
         "id": "context-and-token-efficiency",
-        "title": "Context & Token Optimization (JackOfAllTrAIdes Suite)",
+        "title": "Automatische Kontext- & Token-Regel (System-Layer)",
         "icon": "cpu",
         "color": "#f59e0b", # amber
-        "tagline": "Drastische Reduktion von LLM-Tokenkosten & intelligentes Kontext-Management",
-        "summary": "Das ultimative Werkzeug für KI-gestütztes Arbeiten: Komprimiert Codebasen via AST-Skelettierung, fasst Stacktraces zusammen, bündelt Diffs und konvertiert Dokumente token-effizient.",
+        "is_automatic_layer": True,
+        "tagline": "Dauerhaft aktiv im Hintergrund (Regel & SessionStart-Hook, kein manueller Aufruf nötig)",
+        "summary": "Aufgrund des Nutzer-Feedbacks aus der manuellen Skill-Liste herausgelöst: Greift als globale Regel (rules/context-and-token-efficiency.md) und automatischer SessionStart-Hook bei jedem Projektstart und jedem Prompt völlig selbstständig.",
         "skills_included": [
             "codebase-architecture-reporter", "python-code-skeletonizer", "dependency-context-collector", 
             "git-diff-packager", "log-stacktrace-compressor", "data-schema-reducer", "document-to-markdown", 
             "token-usage-router", "context-engineering", "pdf"
         ],
         "benefits": [
-            "Spart bis zu 85% Token im Kontextfenster von KI-Modellen",
-            "Ermöglicht das Verarbeiten riesiger Repositories ohne Context-Overflow",
-            "Verhindert 'Vergessen' von Instruktionen bei langen Chat-Sitzungen",
-            "Ideal für Team-Mitglieder mit Token-Limits oder API-Kostenkontrolle"
+            "Vollautomatisch aktiv: Kein Mitarbeiter muss daran denken, einen Skill aufzurufen",
+            "Verhindert Token-Verschwendung BEVOR große Dateien geladen werden",
+            "Einmaliger SessionStart-Hook erfasst die Repo-Architektur beim Öffnen des Projekts",
+            "Spart bis zu 85% Token im Kontextfenster ohne jegliche manuelle Interaktion"
         ]
     },
     {

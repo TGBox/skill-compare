@@ -37,23 +37,28 @@ Die interaktive Web-App **SkillLens Pro** ist sofort einsatzbereit:
 - 🔍 **Skill-Katalog & Filter:** Echtzeit-Filterung nach Eignung (Arbeitsrelevant vs. Gaming), Domäne, Quelle und Volltextsuche.
 - ⚖️ **Side-by-Side Comparator:** Direkter Vergleich von 2 bis 3 Skills nebeneinander mit synchronem Inhalts-Viewer.
 - ⚠️ **Duplikat-Detektor:** Exakte Gruppierung aller 72 Duplikate mit Pfadangaben und Empfehlungen, welches Original beibehalten werden soll.
-- 📦 **Die 7 Master-Skills:** Interaktiver Explorer der kombinierten Skills mit Quellauflistung und vollständiger `SKILL.md`-Vorschau.
+- 📦 **Die 6 Master-Skills & Automatik:** Interaktiver Explorer der kombinierten Skills mit Quellauflistung und vollständiger `SKILL.md`-Vorschau sowie der automatischen Regel- und Hook-Schicht.
 - 💡 **/idea-refine One-Pager:** Strukturierte Darstellung des "How Might We"-Statements, der 5 Innovations-Linsen und des Stresstests.
 - ⛶ **Vollbild- & Fenstermodus:** Bequemer Umschalter in der Kopfleiste (und Taste `F11`) für konzentriertes Arbeiten.
 
 ---
 
-## 📦 Die 7 einsatzbereiten Master-Skills
+## 📦 Das 6+1 Modell: 6 Master-Skills + 1 Automatik-Schicht
 
+### 1. Die 6 einsatzbereiten Master-Skills (Aktiv aufrufbar)
 Die kombinierten Skills liegen fertig formuliert und einsatzbereit im Ordner [`consolidated-skills/`](file:///c:/Users/DaniBani/Documents/VisualStudioCodeProjects/skill-compare/consolidated-skills):
 
 1. **`code-quality-and-review`**: Multi-Achsen-Review (5 Dimensionen), Root-Cause-Debugging, Ponytail-Minimalismus, OWASP-Security und Schutz vor Datenverlust.
 2. **`software-architecture-and-specs`**: Spec-Driven Development, API-Schnittstellenverträge, Architecture Decision Records (ADRs) und Datenbankschemamigrationen.
 3. **`modern-web-and-ui`**: Barrierefreies HTML5/CSS, Dark Mode, Responsive Design, Chrome DevTools MCP und Core Web Vitals (LCP).
-4. **`context-and-token-efficiency`**: AST-Skelettierer, Log-Kompressor, Diff-Packager und Dokument-Konverter (bis zu 80% Tokenersparnis).
-5. **`devops-testing-and-git`**: Test-Driven Development (TDD), CI/CD-Pipelines, atomare Git-Commits und Observability.
-6. **`enterprise-data-and-sql`**: High-Performance SQL-Tuning, dbt/Dataform ELT-Pipelines, Schemamapping und Cloud Data Governance.
-7. **`agent-workflow-and-ideation`**: Strukturierte Ideenfindung, Anforderungs-Interviews und KI-Agenten-Metasteuerung.
+4. **`devops-testing-and-git`**: Test-Driven Development (TDD), CI/CD-Pipelines, atomare Git-Commits und Observability.
+5. **`enterprise-data-and-sql`**: High-Performance SQL-Tuning, dbt/Dataform ELT-Pipelines, Schemamapping und Cloud Data Governance.
+6. **`agent-workflow-and-ideation`**: Strukturierte Ideenfindung, Anforderungs-Interviews und KI-Agenten-Metasteuerung.
+
+### 2. Die automatische System-Schicht (Zero-Config, im Hintergrund)
+- **`rules/context-and-token-efficiency.md`**: Permanente Verhaltensregel für den Agenten (erzwingt Slice-Viewing, AST vor Implementierungsdetails, Log-Sanitisierung).
+- **`hooks/hooks.json`**: Automatischer `SessionStart`-Hook zur Erfassung der Codebase-Architektur beim Projektstart.
+- **Vorteil:** Spart bis zu 85% Token völlig automatisch, ohne dass ein Mitarbeiter daran denken muss, einen Skill aufzurufen!
 
 ---
 

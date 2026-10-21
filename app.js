@@ -567,10 +567,10 @@ function initBundlesView() {
 
                 <div class="bundle-footer">
                     <span style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">
-                        consolidated-skills/${bundle.id}/SKILL.md
+                        ${bundle.is_automatic_layer ? 'rules/context-and-token-efficiency.md & hooks/hooks.json' : `consolidated-skills/${bundle.id}/SKILL.md`}
                     </span>
                     <button class="btn btn-sm btn-primary" onclick="showBundleSkillContent('${bundle.id}')">
-                        Instruktion ansehen
+                        ${bundle.is_automatic_layer ? 'Regel & Hook ansehen' : 'Instruktion ansehen'}
                     </button>
                 </div>
             </div>
@@ -584,22 +584,45 @@ function showBundleSkillContent(bundleId) {
 
     const modal = document.getElementById('modal-skill-detail');
     document.getElementById('modal-skill-title').textContent = bundle.title;
-    document.getElementById('modal-skill-source').textContent = `Konsolidierter Master-Skill (consolidated-skills/${bundle.id}/SKILL.md)`;
-
-    document.getElementById('modal-skill-body').innerHTML = `
-        <div style="margin-bottom:1rem;">
-            <p><strong>Ersetzt folgende Einzel-Skills:</strong></p>
-            <div class="bundle-chips" style="margin-top:0.5rem;">
-                ${bundle.skills_included.map(s => `<span class="bundle-chip">${escapeHtml(s)}</span>`).join('')}
+    
+    if (bundle.is_automatic_layer) {
+        document.getElementById('modal-skill-source').textContent = 'Automatische System-Regel & SessionStart-Hook (Immer aktiv)';
+        document.getElementById('modal-skill-body').innerHTML = `
+            <div style="background: rgba(245, 158, 11, 0.1); border-left: 3px solid var(--accent-amber); padding: 0.85rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.85rem;">
+                <strong>Architektur-Vorteil:</strong> Dieser Skill muss von keinem Mitarbeiter manuell aufgerufen werden. Er greift über <code>rules/context-and-token-efficiency.md</code> automatisch bei jedem Prompt und über <code>hooks/hooks.json</code> einmalig bei jedem Projektstart!
             </div>
-        </div>
-        <p><strong>Team-Vorteile:</strong></p>
-        <ul class="bundle-benefits-list" style="margin-bottom:1rem;">
-            ${bundle.benefits.map(b => `<li>${escapeHtml(b)}</li>`).join('')}
-        </ul>
-        <p><strong>SKILL.md Pfad im Projekt:</strong></p>
-        <pre class="code-box"><code>consolidated-skills/${bundle.id}/SKILL.md</code></pre>
-    `;
+            <div style="margin-bottom:1rem;">
+                <p><strong>Ersetzt & automatisiert folgende 10 Einzel-Skills:</strong></p>
+                <div class="bundle-chips" style="margin-top:0.5rem;">
+                    ${bundle.skills_included.map(s => `<span class="bundle-chip">${escapeHtml(s)}</span>`).join('')}
+                </div>
+            </div>
+            <p><strong>Automatisierungs-Vorteile für das Team:</strong></p>
+            <ul class="bundle-benefits-list" style="margin-bottom:1rem;">
+                ${bundle.benefits.map(b => `<li>${escapeHtml(b)}</li>`).join('')}
+            </ul>
+            <p><strong>Regeldatei (Dauerhaft im Hintergrund):</strong></p>
+            <pre class="code-box"><code>rules/context-and-token-efficiency.md</code></pre>
+            <p style="margin-top:0.75rem;"><strong>Hook-Konfiguration (Einmalig bei SessionStart):</strong></p>
+            <pre class="code-box"><code>hooks/hooks.json</code></pre>
+        `;
+    } else {
+        document.getElementById('modal-skill-source').textContent = `Konsolidierter Master-Skill (consolidated-skills/${bundle.id}/SKILL.md)`;
+        document.getElementById('modal-skill-body').innerHTML = `
+            <div style="margin-bottom:1rem;">
+                <p><strong>Ersetzt folgende Einzel-Skills:</strong></p>
+                <div class="bundle-chips" style="margin-top:0.5rem;">
+                    ${bundle.skills_included.map(s => `<span class="bundle-chip">${escapeHtml(s)}</span>`).join('')}
+                </div>
+            </div>
+            <p><strong>Team-Vorteile:</strong></p>
+            <ul class="bundle-benefits-list" style="margin-bottom:1rem;">
+                ${bundle.benefits.map(b => `<li>${escapeHtml(b)}</li>`).join('')}
+            </ul>
+            <p><strong>SKILL.md Pfad im Projekt:</strong></p>
+            <pre class="code-box"><code>consolidated-skills/${bundle.id}/SKILL.md</code></pre>
+        `;
+    }
 
     document.getElementById('modal-btn-compare').style.display = 'none';
     modal.classList.remove('hidden');
